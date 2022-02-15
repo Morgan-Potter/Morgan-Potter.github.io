@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog
+title: Morgan Potter
 email: morganpotter005@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://Arlentas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Arlentas
+  Hi, my name is Morgan Potter. I am a year 11 student currently studying at Burgmann Anglican School. 
+  I created this website as a weekly log of projects, challenges, ideas and self-reflection as my learning in IT continues through college.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Morgan-Potter
 
 # Build settings
 theme: jekyll-theme-slate
