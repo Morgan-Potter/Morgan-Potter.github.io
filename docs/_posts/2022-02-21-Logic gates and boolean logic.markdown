@@ -16,3 +16,5 @@ The biggest logic gate challenge I faced this week was flip-flops. I recreated a
 * A D flip-flop takes an SR flip-flop and combines SR to one switch with a NOT gate on R. Assuming the clock sends a positive pulse - if D is on, S=1 and R=0, which sets Q to 1. IF D is off, S=0 and R=1, which resets Q to 0.
 
 * An SR Flip Flop is one of the most basic flip-flops, and is the foundation to T and D flip-flops. If S (set) is on, R is off, and the clock is on - Q will be set to 1. If R (reset) is on, S is off, and the clock is on, Q will reset to 0. 
+
+Knowing flip-flops helps to understand the fundamentals of RAM, and how a physical bit is flipped from a 1 to a 0.
