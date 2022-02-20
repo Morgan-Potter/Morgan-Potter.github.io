@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Booleans and Logic Gates'
-date: 2022-02-21 13:15:00 +1100
+date: 2022-02-20 13:15:00 +1100
 categories: blog
 ---
 
