@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll Test"
 date: 2022-02-15 16:31:16 +1100
-categories: weekly blog
+categories: blog
 ---
 
 I can write my blog here and it actually works properly right? and I can also do cool things like `this`.

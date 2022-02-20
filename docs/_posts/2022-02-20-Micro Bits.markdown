@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'Micro:Bits'
+date: 2022-02-15 17:54:00 +1100
+categories: blog
+---
+
+This week I completed the Micro:Bit crash course by Grok Learning. This course was broken into 10 sections with around 3-4 coding problems per section. Each section covered the functions of Micro:Bits including: display, audio, accelerometer, button, pin and radio functions. Most of the problems are simple, around 10 lines of code each however they increase in difficulty as the course continues. The final challenge was a game show, which involved creating the host and player code. Interacting over the radio function, the host would send a labelled message to each competitor, and whoever returned a buzzer first would be the victor. This challenge combined all covered areas within the course, and took about 30 minutes to complete - it was not overly difficult. I'm hoping this base knowledge will serve as a foundation for future projects. 
+
+Micro:Bits main purpose is to teach get kids into python programming, and is therefore in lack of a better term, dumbed down. Arduino programming is somewhat more realistic, where in some cases needing you to specify pWm levels. The applications of a Micro:Bit are small, as it is intended to be a learning tool. Micro:Bits can be expanded with a breakout connector, allowing the use of a breadboard. This turns Micro:Bits into a simple microcontroller, powered by python - an expensive raspberry-pi pico. I will be moving onto learning C++ and Arduino next week, which will hopefully spawn some better projects. 
