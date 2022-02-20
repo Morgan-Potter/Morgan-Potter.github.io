@@ -5,9 +5,9 @@ date: 2022-02-20 13:15:00 +1100
 categories: blog
 ---
 
-This week I covered boolean operators and logic gates. This included learning and, or, and not boolean operators and passing this knowledge to nor, nand, exor and exnor logic gates. One challenge involved creating a compound operator / logic gate that always returns a 1. I created a functional compound operator, but it is most likely not the most efficient (it uses 3 logic gates), and I would not know how to go about creating a more efficient one. This is a sign I did not fully grasp the content covered. Next time it may be wise to attempt to make a better solution - then I would be able to consolidate my knowledge in a better final result. I now better understand how bitwise operators like `&&`, and `||` work. Having a basic understanding of computer science will be helpful when learning a language other than python.
+This week I covered boolean operators and logic gates. This included learning and, or, and not boolean operators and passing this knowledge to nor, nand, exor and exnor logic gates. One challenge involved creating a compound operator / logic gate that always returns a 1. I created a functional compound operator, but it is most likely not the most efficient (it uses 3 logic gates), and I would not know how to go about creating a more efficient one. This is a sign I did not fully grasp the content covered. Next time it may be wise to attempt to make a better solution - then I would be able to consolidate my knowledge in a better final result. I now better understand how bitwise operators like `&&`, and `||` work, which may help when an unexpected error occurs.
 
-The biggest logic gate challenge I faced this week was flip-flops. I recreated a T, D and SR flip-flop using [logic.ly](logic.ly). Here is a basic rundown of each:
+The biggest logic gate challenge I faced this week was flip-flops. I recreated a T, D and SR flip-flop using [logic.ly](https://logic.ly). Here is a basic rundown of each:
 
 * A flip-flop is a logic circuit to physically store a 1 or a 0 without power.
 
@@ -17,4 +17,4 @@ The biggest logic gate challenge I faced this week was flip-flops. I recreated a
 
 * An SR Flip Flop is one of the most basic flip-flops, and is the foundation to T and D flip-flops. If S (set) is on, R is off, and the clock is on - Q will be set to 1. If R (reset) is on, S is off, and the clock is on, Q will reset to 0. 
 
-Knowing flip-flops helps to understand the fundamentals of RAM, and how a physical bit is flipped from a 1 to a 0.
+Knowing flip-flops helps to understand the fundamentals of RAM, and how a physical bit is flipped from a 1 to a 0.  Having a basic understanding of computer science will be helpful when learning a language other than python, which are less forgiving. I am excited to continue learning about computer science in the future.
