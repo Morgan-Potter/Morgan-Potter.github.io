@@ -52,7 +52,7 @@ while True:
         start = 0
 
     print("Door is", door)
-{% endhighlight% }
+{% endhighlight %}
 
 The vending machine was a very simple task. It prompted the user for money until there was enough to buy a coke for one dollar. The diagram was similarly simple:
 
