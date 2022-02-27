@@ -7,7 +7,7 @@ categories: blog
 
 This week I completed two simple finite state machine tasks - involving visualizing them on paper, and coding them in python. The finite state machines were a garage door, and a vending machine. Finite state machines on paper are a good way to visualize an object that simplifies understanding what you need to code. Additionally, finite state machines on paper can be easily converted to code. 
 
-![Garage Door FSM Diagram](/Morgan-Potter.github.io/docs/assets/Garage_Door_FSM.png)
+![Garage Door FSM Diagram](/assets/Garage_Door_FSM.png)
 
 The garage door involved modifying a pre-existing finite state machine with 4 states, to change from the closing, or opening state to closed or open after 5 seconds, and to add the stopped state. I incorrectly read the task and ended up using `time.time` to literally make a timer running paralel with the code, but the task simply asked to activate the sensor 5 times - assuming that each loop of the code is one second. The stopped state was simple to add, which was a testiment to the diagram. They are more useful than they seem. The code can be found below:
 
@@ -56,7 +56,7 @@ while True:
 
 The vending machine was a very simple task. It prompted the user for money until there was enough to buy a coke for one dollar. The diagram was similarly simple:
 
-![Vending Machine FSM Diagram](/Morgan-Potter.github.io/docs/assets/Vending_Machine_FSM.png)
+![Vending Machine FSM Diagram](/assets/Vending_Machine_FSM.png)
 
 The only challenge I ran into with this code was float addition and subtraction. Even if the float is a whole number, the result of the float minus one is something like 1.999999999. I used the decimal module, which did not have the same issue and the code worked fine. It can be found below:
 
