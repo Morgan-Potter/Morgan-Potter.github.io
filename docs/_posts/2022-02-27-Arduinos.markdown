@@ -7,7 +7,7 @@ categories: blog
 
 This week I got the opportunity to begin tinkering with Arduinos. To learn the basics, I completed some simple projects created by DF robot. I completed 3 challenges - a simple blinking light, a light blinking SOS in moarse code and a simple traffic light simulation. 
 
-![Arduino Traffic Light Simulation](/docs/_posts/Images/Arduino_Traffic_Light.jpg){:class="img-responsive"}
+![Arduino Traffic Light Simulation](/_posts/Images/Arduino_Traffic_Light.jpg){:class="img-responsive"}
 
 These challenges involved both coding and building the circuits. I consolidated my knowledge of breadboards, pWm pins, and learnt about resistance in circuits. The Arduino IDE is an adaptation of C++, and hence I learnt C++ functions, for loops and variable assignment. I enjoyed completing these projects, however they are very repetitive, and adding the hardware element takes more time than solely coding, additionally each circuit must be dissasembled when complete. I need to be more patient to learn Arduinos, it is more challenging than Grok. The only circuits I coded where the blinking light (which I have lost), and the SOS blinking light. You can find the SOS code below, I tried to optimize it using OOP. 
 
