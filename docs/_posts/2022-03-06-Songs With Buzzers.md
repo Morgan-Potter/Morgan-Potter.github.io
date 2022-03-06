@@ -12,7 +12,7 @@ This week I set out to create an original Arduino project so I could test my cur
  I did not know what values the potentiometer sends, and had to use trial and error to find the right range of speed. I did this by dividing the potentiometer value by larger numbers until the song could go fast and slow. That was simple enough - the buttons where harder though. After a quick google search to figure out what an octave is in frequencies, I had to find a way to multiply and divide the frequency by 2. I first tried to do this by creating a new variable for the played frequency but the frequency changes after every note, and I had no good way to change that in the variable. After too much thinking, I created a multiplier value for the frequency, and multiplied and divided the value when the buttons were pressed. This worked for the most part, but when the octave down button was pressed, the song continually dropped octaves instead of dropping it once. I have not found a solution to this problem as the current solution took too long. When I look back on it now, what I did was an easy solution. Finishing the project would have been nice, but it was not the goal. I successfully tested my current knowledge, and I have the basics down. The only thing I need to work on is remembering semi-colons -_-. The code is below:
 
  {% highlight C++ %}
- int alarm = 11;
+int alarm = 11;
 int potent = A0;
 int upoctave = 10;
 int downoctave = 9;
