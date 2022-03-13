@@ -19,6 +19,8 @@ class BinaryGate(LogicGate):
 
         self.pinA = None
         self.pinB = None
+        self.pinC = None
+        self.expin = False
 
     def getPinA(self):
         if self.pinA == None:
@@ -31,15 +33,22 @@ class BinaryGate(LogicGate):
             return int(input("Enter Pin B input for gate "+self.getLabel()+"-->"))
         else:
             return self.pinB.getFrom().getOutput()
+    def getPinC(self):
+        if self.pinC == None:
+            return int(input("Enter Pin C input for gate "+self.getLabel()+"-->"))
+        else:
+            return self.pinC.getFrom().getOutput()
 
     def setNextPin(self,source):
         if self.pinA == None:
             self.pinA = source
+        elif self.pinB == None:
+            self.pinB = source
+        elif self.expin == True:
+            if self.pinC == None:
+                self.pinC = source
         else:
-            if self.pinB == None:
-                self.pinB = source
-            else:
-                print("Cannot Connect: NO EMPTY PINS on this gate")
+            print("Cannot Connect: NO EMPTY PINS on this gate")
 
 
 class AndGate(BinaryGate):
@@ -75,26 +84,81 @@ class NandGate(BinaryGate):
     def __init__(self,n):
         BinaryGate.__init__(self,n)
 
-    def peformGateLogic(self):
+    def performGateLogic(self):
         a = self.getPinA()
         b = self.getPinB()
-        if a==1 and b==1:
-            return 0
+        if self.expin == True:
+            c = self.getPinC()
+            if a==1 and b==1 and c==1:
+                return 0
+            else:
+                return 1
         else:
-            return 1
+            if a==1 and b==1:
+                return 0
+            else:
+                return 1
 
 class NorGate(BinaryGate):
 
     def __init__(self,n):
         BinaryGate.__init__(self,n)
 
-    def peformGateLogic(self):
+    def performGateLogic(self):
         a = self.getPinA()
         b = self.getPinB()
         if a==1 or b==1:
             return 0
         else:
             return 1
+
+class ExorGate(BinaryGate):
+
+    def __init__(self,n):
+        BinaryGate.__init__(self,n)
+
+    def performGateLogic(self):
+
+        a = self.getPinA()
+        b = self.getPinB()
+        if (a==1 or b==1) and not(a==1 and b==1):
+            return 1
+        else:
+            return 0
+
+class ExnorGate(BinaryGate):
+
+    def __init__(self,n):
+        BinaryGate.__init__(self,n)
+
+    def performGateLogic(self):
+        a = self.getPinA()
+        b = self.getPinB()
+        if (a==1 or b==1) and not(a==1 and b==1):
+            return 0
+        else:
+            return 1
+
+class JKFlipFlop(BinaryGate):
+
+    def __init__(self,n):
+        BinaryGate.__init__(self,n)
+        self.q = 0
+        self.next = None
+        self.visited = False
+
+    def performGateLogic(self):
+        q = self.q
+        if not self.visited:
+            self.visited = True
+            j = self.getPinA()
+            k = self.getPinB()
+            if (j==1 and self.q==0) or (self.q==1 and k==0):
+                self.next = 1
+            else:
+                self.next = 0
+        return q
+
 
 class UnaryGate(LogicGate):
 
@@ -126,9 +190,25 @@ class NotGate(UnaryGate):
             return 0
         else:
             return 1
+class Switch(UnaryGate):
 
+    def __init__(self,n):
+        UnaryGate.__init__(self,n)
+        self.switch = None
 
+    def performGateLogic(self):
+        if self.switch in range(0, 2):
+            return(self.switch)
+        else:
+            return(self.getPin())
 
+class Power(UnaryGate):
+
+    def __init__(self,n):
+        UnaryGate.__init__(self,n)
+
+    def performGateLogic(self):
+        return 1
 
 class Connector:
 
@@ -147,26 +227,39 @@ class Connector:
 
 
 def main():
-    g1 = AndGate("G1")
-    g2 = AndGate("G2")
-    g3 = AndGate("G3")
-    g4 = AndGate("G4")
-    o1 = OrGate("O1")
-    g5 = AndGate("G5")
+    switch = Switch("Switch")
+    power = Power("Power")
+    j1 = AndGate("J1")
+    j2 = AndGate("J2")
     n1 = NotGate("N1")
-    n2 = NotGate("N2")
-    n3 = NotGate("N3")
-    Connector(g1, o1)
-    Connector(g2, o1)
-    Connector(o1, n1)
-
-    Connector(g3, n2)
-    Connector(g4, n3)
-    Connector(n2, g5)
-    Connector(n3, g5)
-    test1 = n1.getOutput()
-    test2 = g5.getOutput()
-    print(test1)
-    print(test2)
-    print(test1 == test2)
+    jk1 = JKFlipFlop("JK1")
+    jk2 = JKFlipFlop("JK2")
+    notjk1 = NotGate("NotJK1")
+    y = AndGate("Y")
+    
+    Connector(switch, j1)
+    Connector(switch, j2)
+    Connector(switch, n1)
+    Connector(j1, jk1)
+    Connector(n1, jk1)
+    Connector(j2, jk2)
+    Connector(power, jk2)
+    Connector(jk1, notjk1)
+    Connector(notjk1, j2)
+    Connector(jk2, j1)
+    Connector(notjk1, y)
+    Connector(jk2, y)
+    while True:
+        button_press = int(input("Button Pressed? "))
+        if button_press == 1:
+            switch.switch = 1
+        else:
+            switch.switch = 0
+        print(y.getOutput())
+        jk1.visited = False
+        jk1.q = jk1.next
+        jk2.visited = False
+        jk2.q = jk2.next
+    
 main()
+
