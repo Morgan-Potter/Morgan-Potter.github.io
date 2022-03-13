@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mechatronics Update and Research Reports"
-date: 2022-03-14 12:20:00 +1100
+date: 2022-03-13 12:20:00 +1100
 categories: blog
 ---
 
