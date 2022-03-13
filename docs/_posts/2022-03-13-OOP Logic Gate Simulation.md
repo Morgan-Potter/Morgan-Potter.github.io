@@ -13,10 +13,10 @@ Understanding the article was difficult, but it proposed a very compelling way o
 <tr>
 <td>
 
-<img src="assets/OOP-Logic-Gate-Simulation/JK-Truth-Table.jpg" alt="Image"/> -->
+<img src="/assets/OOP-Logic-Gate-Simulation/JK-Truth-Table.JPG" alt="Image"/> -->
 </td>
 <td>
-<img src="/assets/OOP-Logic-Gate-Simulation/JK-karnaugh-map.jpg" alt="Image"/> -->
+<img src="/assets/OOP-Logic-Gate-Simulation/Jk-karnaugh-map.jpg" alt="Image" width="400"/>
 </td>
 </tr>
 <tr>
@@ -33,10 +33,10 @@ Removing all the unnecessary parts from the circuit was difficult. I had to find
 <table>
 <tr>
 <td>
-<img src="assets/OOP-Logic-Gate-Simulation/JK-flip-flop-starting-circuit.webp" alt="Image" width="400"/> -->
+<p><img src="/assets/OOP-Logic-Gate-Simulation/JK-flip-flop-starting-circuit.webp" alt="Image" width="400"/> --> </p>
 </td>
 <td>
-<img src="/assets/OOP-Logic-Gate-Simulation/Complete-Logic-Circuit.jpg" alt="drawing" width="400"/>
+<img src="/assets/OOP-Logic-Gate-Simulation/Complete-Logic-Circuit.jpg" alt="Image" width="400"/>
 </td>
 </tr>
 <tr>
