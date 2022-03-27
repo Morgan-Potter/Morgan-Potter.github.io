@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Science Update"
-date: 2022-02-27 00:00:00 +1100
+date: 2022-03-27 00:00:00 +1100
 categories: blog
 ---
 

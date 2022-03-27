@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shakey the Robot"
-date: 2022-2-26 00:00:00 +1100
+date: 2022-03-27 00:00:00 +1100
 categories: blog
 ---
 
