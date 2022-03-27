@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Data Science Update"
+date: 2022-02-27 00:00:00 +1100
+categories: blog
+---
+
+This week I have not been able to complete much work in data science. This is mainly due to the current heavy assessment load, and focus on mechatronics. This week I recieved both my mechatronics and data science research reports, in which I have submitted two drafts. Since I completed more work than needed on last weeks Robodebt ethics task, I decided to use that as part of my assignment. This would lighten the workload and give me more of a chance to refine both reports properly. In consequence to this, I have been focusing solely on my mechatronics report to get it at the same level as my data science one, meaning I have no work to present in this blog post. I think this was a positive time management decision, as I was able to submit two drafts in the time of doing one. Although this was a good decision, my time management skills in other subjects have been poor as I begin figuring out the standard for year 11 work. If I managed my time better I may have had time to write two drafts, but alas, here I am. At the time of writing my next blog posts, I will have my draft feedback, and I will have finished both IT assignments, so I will have more to report on then. 
