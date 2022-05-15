@@ -11,7 +11,7 @@ Changing plot attributes is inherently easy, most simply requiring a plot functi
 
 There were three exercises across the whole document, two of which only required me to mess around with the colours. The only somewhat-difficult exercise was the final one, which made me have to use google again. I had to find how to edit marker borders, which was through the attribute markeredgecolor, and I had to use the previously discussed markerfacecolor. I am not sure if this was the intended way of completing the task, as these attributes were not discussed in the task, but I learnt how to edit them anyway. My submission is below.
 
-<img alt="Exercise 3.3" src="/assets/MatPlotLib-3/Exercise_3_3.png" style="display: block; width: 30%; margin: 0 auto;">
+<img alt="Exercise 3.3" src="/assets/MatPlotLib-3/Exercise_3_3.png" style="display: block; width: 40%; margin: 0 auto;">
 
 Learning these will be very important in my Data Science assignment, as I have to display the data in a good way. I still have to further look at the task sheet, but it looks like an enjoyable task. I will need to know how to use MatPlotLib properly, so that I can implement any visualisation necessary. 
 

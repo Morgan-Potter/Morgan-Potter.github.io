@@ -13,6 +13,9 @@ Ohms law is very easy, it is a simple formula - voltage = current * resistance. 
 
 My classmate and me were able to do the maths for 1k Ohm, and 220 Ohm resistors running in succession and parallel. The maths for running in succession is easy - the resistance is simply added together, which is used to calculate the current. After this, the current can be used to find the voltage after each resistor, and from memory, both resistors subtracted 2.5 volts from the original 5. We were able to test this with an Arduino and multimeter, and the maths was accurate. Resistors running in parallel adds an extra step - the inverse of the two resistances are added together, which equals the inverse of the total resistance, kind of like Pythagoras. With this resistance, the current can be found, and then using Kirchov's law to split the current in half, the voltage at either resistor can be found. We tested this, and it ended up being 0 volts on both resistors, which was confusing at first, but I later came to realize that voltage at the negative terminal is always 0. Whilst trying to test the circuit, I also burned 2 LEDs by accidentally shorting the circuit, which was a little frustrating. I did not get an image of these circuits, but an image distinguishing the two circuits is below.
 
-<img alt="Parallel vs. Sequential Resistors"  src="/assets/Electricity/Resistor-circuit.png" style="display: block; margin: 0 auto; width: 30%;">
+<img alt="Parallel vs. Sequential Resistors"  src="/assets/Electricity/Resistor-circuit.png" style="display: block; margin: 0 auto; width: 40%;">
+<p style="text-align: center; margin: 0;">
+(<a href="https://electronicsreference.com/module3/dc-resistors-parallel/">Electronics Reference</a>, 2022)
+</p>
 
 That aside, it was fun to test these circuits, and see the physics work in reality. It is great that I can design, and simulate resistance on circuits properly now, as this is a fundamental of circuit design I was not capable of. This will become more useful as I continue to create more complex circuits without any guides. 
