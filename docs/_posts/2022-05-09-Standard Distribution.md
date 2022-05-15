@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Standard Deviation"
+title: "Standard Distribution"
 date: 2022-05-09 00:00:00 +1100
 categories: blog
 ---
