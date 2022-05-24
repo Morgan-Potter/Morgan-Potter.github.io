@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 
-.subheader {
+.bigheader {
     width: 100%;
     height: 70px;
     background-color: rgb(51, 71, 255);
@@ -37,16 +37,19 @@ header {
 
 }
 
-.name > button {
+.name > a {
     display: inline-block;
+    text-align: center;
+    text-decoration: none;
     width: 150px;
     height: 49px;
+    line-height: 49px;
     font-size: 15px;
     border: none;
     cursor: pointer;
     background-color: white;
 }
-.name > button:hover {
+.name > a:hover {
     background-color: lightblue;
     text-decoration: underline;
 }
@@ -60,28 +63,34 @@ header {
     bottom: 0px;
     top: 0px;
 }
-
-header > .header-content > div {
-    display: inline-block;
-    vertical-align: middle;
-    width: 150px;
-    height: 49px;
-    margin: 0px
     
-}
-header > .header-content > div > button {
+header > .header-content > .header-button {
     display: inline-block;
     width: 150px;
     height: 49px;
     font-size: 15px;
+    vertical-align: middle;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
     border: none;
     cursor: pointer;
     background-color: white;
 }
-header > .header-content > div > button:hover {
+
+header > .header-content > .header-button > span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 49px;
+}
+header > .header-content > .header-button:hover {
     background-color: lightblue;
     text-decoration: underline;
 }
+header > .header-content > .header-button:hover > span {
+    text-decoration: underline;
+}
+
 .logo {
     color: #424242;
     font-size:22px;
@@ -104,3 +113,32 @@ section {
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+.reference-type {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: rgb(115, 131, 236);
+    text-decoration: none;
+}
+.reference-type > i{
+    font-size: 200px;
+    color: rgb(115, 131, 236);
+}
+
+.index-container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.reference-type:hover {
+    background-color: lightblue;
+}
+
