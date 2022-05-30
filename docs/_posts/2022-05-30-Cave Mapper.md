@@ -11,8 +11,8 @@ The report was mostly written around fitting the ultrasonic sensor into the task
 
 The design was annoying because the school only has 180 degree servos. This means to map the full 360 degrees, I would have to use two servo motors stacked ontop of eachother. This posed an interesting design challenge, which I somewhat succeeded in. I succeded in the servo dimensions, the alignment of the rotation and most of the mounting. I failed in getting the parts to spin. As fdm 3d-printers are not as precise as injection molding, the servo motor teeth cannot be printed. When I made the design, I instead made the parts screw into the servo, thinking that they would rotate. When tested, the screw does not hold the two parts together strong enough to spin. I am considering sacrificing a screw, and just using super glue, but I will think about this further over the coming week. My design is below.
 
-<image alt="Cave Mapper Design" src="/assets/Cave-Mapper/Design.png" style="margin: 0 auto; width: 40%;">
+<img alt="Cave Mapper Design" src="/assets/Cave-Mapper/Design.png" style="display: block; margin: 0 auto; width: 40%;">
 
 Using the Tinkercad simulation software, I had a go at coding the circuit. When I was coding it, I though that it was going to work fine, but there was a lot of errors. As I do not understand C++ that much, I managed to mistake char as a string. This meant there were many errors involving string and char conversion, however I do not fully understand what a C++ string is. There were more errors surrounding functions on top of this. I did not have the time to debug those errors this week, but it will certainly be done by next weeks posts. A picture of the simulator is below. 
 
-<image alt="Simulation of Circuit" src="/assets/Cave-Mapper/Simulation.png" style="margin: 0 auto; width: 40%;">
+<img alt="Simulation of Circuit" src="/assets/Cave-Mapper/Simulation.png" style="display: block; margin: 0 auto; width: 40%;">
