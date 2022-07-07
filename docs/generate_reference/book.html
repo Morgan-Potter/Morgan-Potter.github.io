@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="../Referencing_Generator.css">
         <title>Reference Book</title>
+        <script type="text/javascript" src="../Referencing-Generator.js"> </script>></script>
     </head>
     <body>
         <div class="bigheader">
@@ -16,7 +17,17 @@
         </header>
         <section>
             <h1>Reference Book</h1>
-            <input> </input>
+            <form>
+                <h3>Authors: </h3>
+                <input type="button" value="Add Author" id="add_auth" onclick="addAuthor()">
+
+                <input type="text">
+                <input type="button" value="Reference E-Book" onclick="showElement('url'); showElement('url_text')">
+                <h3 id="url_text" style="display: none;">URL:</h3>
+                <input type="text" placeholder="Insert URL of E-Book" name="url" id="url" style="display: none;"/>
+
+                <input type="button" value="Submit" onclick="storeBook(this.form);return false;"/>
+            </form>
         </section>
     </body>
 </html>
