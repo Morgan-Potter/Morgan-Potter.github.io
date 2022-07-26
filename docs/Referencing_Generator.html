@@ -9,7 +9,9 @@
             </h1>
         </noscript>
         <title>Burgmann APA Referencing Generator</title>
-        <script type="text/javascript" src="Referencing-Generator.js"> </script>
+        <script src="https://unpkg.com/docx@7.4.1/build/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+        <script type="text/javascript" src="Referencing-Generator.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
 
     </head>
@@ -21,14 +23,16 @@
             <div class="name"><a href='https://morgan-potter.github.io'> <span class="logo">Morgan Potter</span> </a> </div>
             <div class="header-content">
 
-                <a class="header-button" href='https://morgan-potter.github.io/Referencing_Generator.html'><span> Home </span></a>
-                <a class="header-button" href='https://morgan-potter.github.io/New_Reference.html'> <span> Reference </span> </a>
-                <button class="header-button"> Generate Word Document </button>
+                <a class="header-button" href='./Referencing_Generator.html'><span> Home </span></a>
+                <a class="header-button" href='./New_Reference.html'> <span> Reference </span> </a>
+                <button class="header-button" onclick="generateDocx(); return false;"> Generate Word Document </button>
             </div>
         </header>
         
         <section id=reference-list class="references">
             <h1>References</h1> 
+        <input type="button" value="Delete References" onclick="localStorage.clear(); location.reload(); return false;">     
         </section>
+
     </body>
 </html>

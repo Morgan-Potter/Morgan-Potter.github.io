@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="../Referencing_Generator.css">
         <title>Reference Journal</title>
+        <script type="text/javascript" src="../Referencing-Generator.js"></script>
     </head>
     <body>
         <div class="bigheader">
@@ -11,12 +12,30 @@
         <header>
             <div class="name"><a href='https://morgan-potter.github.io'> <span class="logo">Morgan Potter</span> </button> </div>
             <div class="header-content" style="width: 150px;">
-                <a class="header-button" href='https://morgan-potter.github.io/Referencing_Generator.html'><span>Home</span></a>
+                <a class="header-button" href='../Referencing_Generator.html'><span>Home</span></a>
             </div>
         </header>
         <section>
             <h1>Reference Journal</h1>
-            <input> </input>
+            <form>
+                <h3>Authors of Article: </h3>
+                <input type="text" placeholder="Insert Author First Name" name="1:auth_first" id="1:auth_first"> <input type="text" placeholder="Insert Author Last Name" name="1:auth_last" id="1:auth_last"><br id="1:br">
+                <input type="button" value="Add Author" id="add_auth" onclick="addAuthor(); return false;">
+                <input type="button" value="Remove Author" onclick="removeAuthor(); return false"><br>
+
+                <input type="text" name="journal_title" id="journal_title" placeholder="Insert Title of the Journal"><br>
+                <input type="text" name="year" id="year" placeholder="Insert Copyright Year of the Journal"><br>
+                <input type="text" name="volume" id="volume" placeholder="Insert Journal Volume"><br>
+                <input type="text" name="issue" id="issue" placeholder="Insert Journal Issue"><br>
+                <input type="text" name="pages" id="pages" placeholder="Insert Page Number or a Page Range (pp-pp)"><br>
+
+                <input type="text" name="title" id="title" placeholder="Insert Title of the Article"><br>
+                
+                <input type="button" value="Add DOI" onclick="showElement('doi'); return false;"> <br>
+                <input type="text" placeholder="Insert DOI" name="doi" id="doi" style="display: none;"/>
+
+                <input type="button" value="Submit" id="submit" onclick="storeJournal(this.form);window.location.pathname = '../Referencing_Generator.html'; return false;"/>
+            </form>
         </section>
     </body>
 </html>
