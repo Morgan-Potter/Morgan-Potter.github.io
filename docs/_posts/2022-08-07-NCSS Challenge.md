@@ -5,7 +5,7 @@ date: 2022-08-08 00:00:00 +1100
 categories: blog
 ---
 
-<h3>work I Completed</h3>
+<h3>Work I Completed</h3>
 
 Over the past two weeks I have been working to complete the Advanced NCSS challenge to improve my Python programming, and to strengthen my application for the NCSS Summer School. The challenge has a simple Grok format - a brief problem description and then a section for writing a solution. The problems follow the ideology of concept to code - the description will never ask for you to determine an original algorithm for a problem, the solutions are explained to you. This makes it more straightforward, the only difficult area of this challenge is understanding how to code a solution into existence, not finding the solution itself. I have completed the first two weeks of challenges, which were increasingly difficult. The most difficult of which was the last problem of week two.
 
@@ -55,7 +55,7 @@ def is_obstructed(board, x,y):
 
 {% endhighlight %}
 
-This code loops through all of the squares in the north/south/east/west directions, and returns true if a light is found, and false if not. The most difficult part of this was getting the list of values in a given direction. To get the all the squares north of the lamp, the list <code>reversed([i[x] for i in board[:y]])</code> is used. This loops through all the y values above y created by board[:y], and adds the square with the same x coordinate or i[x]. The list must be reversed, as it must search from the specified lamp to the upper square, not the other way around.
+This code loops through all of the squares in the north/south/east/west directions, and returns true if a light is found, and false if not. The most difficult part of this was getting the list of values in a given direction. To get the all the squares north of the lamp, the list <code>reversed([i[x] for i in board[:y]])</code> is used. This loops through all the y values above y created by board[:y], and adds the square with the same x coordinate or i[x]. The list must be reversed, as it must search from the specified lamp to the upper square, not the other way around. Strictly speaking, the if statements checking whether the square is on the edge of the board are not necessary, as for loop will be iterating over an empty list if it is on the edge. It does not change the functionality, but would be computationally faster to remove the statements.
 
 <h3>Reflection</h3>
 
