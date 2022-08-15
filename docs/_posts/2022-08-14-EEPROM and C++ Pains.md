@@ -17,7 +17,7 @@ On trying to code this I began getting very mad at the complexities of C++. As I
 {% highlight C %}
   String varName[1024]; // 6kb memory
   int memAdr[1024][4]; // 16kb memory
-{% end highlight %}
+{% endhighlight %}
 
 My idea for the user input was to have them define a variable by {type} {variable name} {value}. The issue with this is, C++ has no built-in way to split a string into an array by a character. I was fortunate in finding a demo split function online and decided to use that. At this point I was very frustrated, as I thought this was going to be a relatively simple task, I feel like I could code this in Python in 30 minutes. I wanted to quit, and the thing that finally pushed me over the line was when I tried to add an if statement checking whether the correct command had been given, and it threw an error for some reason. My short diagnosis was that you could not run a == operator on an empty array space. The thought of fixing this infuriated me, and then I began writing this entry.
 
