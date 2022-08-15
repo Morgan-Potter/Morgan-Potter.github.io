@@ -25,13 +25,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi, my name is Morgan Potter. I am a year 11 student currently studying at Burgmann Anglican School. 
   I created this website as a weekly log of projects, challenges, ideas and self-reflection as my learning in IT continues through college.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://morgan-potter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Morgan-Potter
 
 # Build settings
 theme: minima
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
