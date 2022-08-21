@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Robot Economical Ethics'
-date: 2022-08-21 00:00:00 +1100
+date: 2022-08-21 11:00:00 +1100
 categories: blog
 ---
 
