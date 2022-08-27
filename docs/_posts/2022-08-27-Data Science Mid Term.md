@@ -15,9 +15,7 @@ Similarly due to this plan, I also did not address the design techniques and tec
 
 One of the stronger points of this response was the ethics discussion. I believe I made a strong point as to the publics perception of being lied to by data analysts, and backed it up with sourced evidence. I also specifically talked about the statement, instead of my stance (likely because I did not have one), which is what the rubric specifically asks for. I only wish I could add a conclusion to the ethics discussion, as I provided a random closing statement in a mostly unrelated paragraph. This statement can be found below.
 
-{% highlight %}
-"This issue of intentional data bias is seen to have large repercussions for the public and is very relevant today."
-{% end highlight %}
+> "This issue of intentional data bias is seen to have large repercussions for the public and is very relevant today."
 
 <h3>Reflection</h3>
 

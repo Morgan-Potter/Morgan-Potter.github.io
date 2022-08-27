@@ -12,14 +12,12 @@ This week I completed the extended response robotics mid term exam. This exam we
 In preperation for the exam, I studied the content as discussed in last weeks blog post, and looked at the rubric to determine how I was meant to respond. My interpretation of the rubric was more of a research report. The content of the essay was marked on design techniques (development), technology theories (algorithms / systems), ethics of the statement and relevance. This format is very similar to the research report I completed in term one, with the addition of the relevance of the statement, or (likely) the power of the argument. This calmed my nerves, as I need a lot of careful thought before I can formulate a compelling essay - a research report can flow naturally, unlike the confining essay structure. This idea of a research report format is also why I included subheadings within the document, as they were required in my term one research report.
 
 For some reason during worded exams, I naturally decide to disregard my plans and just begin writing. Instead of calming myself down, and looking at the prompt analytically to brainstorm a good thesis, I just ran with the first thing that popped into my head. This happened to be arguing that the effect of robot automation will largely hinge off the net gain / loss of jobs in the labor market. As a consequence to this superficial approach, my overall argument was unclear, almost changing half-way through. Instead of discussing more general job loss statistics to show this net gain / loss, I focused on a specific example, which inadequately argues the job loss overall. Additionaly, I tried to merge this information in the ethics section, which caused the actual ethical discussion to be brief. The specific example made discussing the techniques / technology significantly more straight forward, so I should have created an argument that was better argued with an example. See below a comparison between my original and final argument (context makes them slightly more similar). 
-    
-{% highlight %}    
-Original - "Arguments regarding the effect of robotic automation within the workforce generally discuss the balancing effect between creating and destroying jobs."
-
-V.S
-
-Final - "This is just one example of the problems robot automation may cause, but resoundingly it will cause huge problems in the future."
-{% endhighlight %}
+       
+>Original - "Arguments regarding the effect of robotic automation within the workforce generally discuss the balancing effect between creating and destroying jobs."
+>
+>V.S
+>
+>Final - "This is just one example of the problems robot automation may cause, but resoundingly it will cause huge problems in the future."
 
 My response likely was not as bad as I make it out to be, as I often have a hard time judging my writing in extended response tasks. Upon re-reading it, I believe it is actually quite a good work, although not perfect. 
 
