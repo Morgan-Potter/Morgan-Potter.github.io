@@ -52,7 +52,7 @@ This assignment was fairly challenging, but I think I did well on it. Even if my
 
 <h4>How does this make you feel?</h4>
 
-Not getting to do any work for Robotics was quite dissapointing, as I was excited to mess around with the new shift registers, and the transistors that were found buried in other components. Although it was not exactly the same content, I did learn a lot about Robotics this week which is a good constilation. This assignment really helped to solidify my foundational Robotics skills since I did not try all that hard to create a strong knowledge base. 
+Not getting to do any work for Robotics was quite disappointing, as I was excited to mess around with the new shift registers, and the transistors that were found buried in other components. Although it was not exactly the same content, I did learn a lot about Robotics this week which is a good constilation. This assignment really helped to solidify my foundational Robotics skills since I did not try all that hard to create a strong knowledge base. 
 
 <h4>What are your next steps?</h4>
 
