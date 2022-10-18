@@ -4,7 +4,6 @@ title: 'Data Science Practical'
 date: 2022-10-18 00:00:00 +1100
 categories: blog
 ---
-###### {{ post.content | size }} words
 
 ### Work I Completed
 
