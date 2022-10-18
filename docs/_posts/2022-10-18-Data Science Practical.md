@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Data Science Practical'
+date: 2022-10-18 00:00:00 +1100
+categories: blog
+---
+###### {{ post.content | size }} words
+
+### Work I Completed
+
+This week in Data Science we were given our practical projects, and I have had a chance to consider how my assignment is going to look. The assignment follows the conventions of the previous practical, however requires the analysis of a big data set with > 1 000 000 rows. The assignment is broken down like a scientific report, with a hypothesis, results, discussion and conclusion. To begin writing my assignment I need a dataset, and a premise for analysis. Previously, I used NRL Players Fantasy data to predict when a player is likely to spike up, and then when that player would spike down in price. If I were to continue this NRL Fantasy trend, it would be wise to instead analyse the trends of successful coaches (i.e. the users playing NRL Fantasy). There are 205 219 coaches, and 25 rounds - meaning there are 5 130 475 possible teams to be analysed. This certainly meets the big data requirement.
+
+I have previously discussed my many unsuccessful attempts to scrape this data from the NRL Fantasy website. When doing this, I was trying to download the dataset too quickly, and ran into numerous problems, so I think I will use a slower approach and let it run for longer. Using the Asyncio Python module, I can comfortably download 80 files / second, so it should take around 18 hours to download the full dataset. I can do this on my main computer without issue.
+
+This data can be analysed in a plethora of different ways. It should be clear that the goal of any analysis of NRL Fantasy data is to increase success within the game. This is done by owning players that are performing well in the NRL, and hence are earning more points. Coaches that trade their players at the right time to maximise their team's success do the best in the game. A possible avenue to analyse the dataset is to find the trends in successful coaches to determine the most effective signs that any given player will perform well. This provides unique insight, as instead of trying to determine the best way to predict a players success through my own trial and error, I am letting the thousands of already successful players do the work for me. A player's performance can also be inferred by non-quantitative factors researched from media outlets such as professional opinions, and finding or not finding these trends will also indicate the importance of quantitative vs qualitative factors when trading for a player.
+
+The question is what kind of trends should I be focusing my analysis on? The key features of this dataset are the players in a coaches team each round, and the scores that they have produced. This means the only variable that I can analyse is trends in players, as it is the only thing effecting the scores. This does not mean results are limited - there are many possible questions I could look to answer. For example: Are the overall winning coaches starting off with high performing players? What is it about these starting players that made them the most successful picks? Similar questions could be made about trading players: What are top coaches looking at when they trade their players? Do they want short-term or long-term results? Compiling a list of questions to address within the report would increase the thoroughness of the report. This is how it should be - big data means big results!
+
+Whilst writing this blog post, I have debated whether the ethical and moral discussion will be the same, as the aim of the report is identical. Previously, I chose to focus on the ethics and morals of actually using the strategy I had developed if it were actually game-changing. In this circumstance I could ask exactly the same question, however I could also discuss the ethics of collecting this dataset, or the ethics of this kind of data analysis being locked behind over 5 million HTTP get requests. If I copy-pasted the ethical discussion from my previous report, it would fit perfectly but that does not mean I cannot create a unique discussion. 
+
+### Reflection
+
+#### What are your next steps?
+
+Other than starting to download the dataset tonight, I will next be moving on to refining my ideas and hypothesis. I have many different ideas of what I want to analyse, but I need to figure out how to condense these ideas into one central hypothesis as the task requires. Doing this sooner rather than later will allow me to begin coding, and will mean I can discuss some more practical stuff in these blog posts. I am excited about finding something for this 
+
+This analysis would be able to find the general things that good players are looking for, but would not create any algorithm or method of playing the game. In terms of future projects, creating an algorithm based on these insights would be amazing. Considering the sheer amount of data NRL Fantasy has to offer, I would not be surprised if such an algorithm could be created. Even the unpredictable stock market is being increasingly dominated by A.I. I just need to find how to quantitatively find the best moves each round.
+
+#### What about your thinking, learning or work brought you the most satisfaction? 
+
+At the beginning of this semester, I lost a lot of satisfaction with data science after being denied to switch to web dev (even though I should have checked the deadline). This caused me to be rather un-inspired when it came to looking at data bias and sampling methods, however having the freedom of this assignment is really cool. There are not many classes where you can focus on improving a central project every semester, so I am excited to continue trying to solve NRL Fantasy. I am not sure whether I will continue with data science into year 12 but at least the final project will be fun.
