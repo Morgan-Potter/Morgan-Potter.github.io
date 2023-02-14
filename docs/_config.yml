@@ -19,21 +19,49 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Morgan Potter
-link: Projects
-email: morganpotter005@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Hi, my name is Morgan Potter. I am a year 11 student currently studying at Burgmann Anglican School. 
-  I created this website as a weekly log of projects, challenges, ideas and self-reflection as my learning in IT continues through college.
+subtitle: Just a blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://morgan-potter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Morgan-Potter
-
+author:
+  name: Morgan Potter
+  avatar: "/assets/author.jpg"
+  bio: Hi, my name is Morgan Potter. I am a year 12 student currently studying at Burgmann Anglican School. I created this website as a weekly log of projects, challenges, ideas and self-reflection as my learning in IT continues through college.
+  location: ACT, Australia
+  email: morganpotter005@gmail.com
+  links:
+    - label: 'GitHub'
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Morgan-Potter"
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-  
+  - jekyll-include-cache
+minimal_mistakes_skin: "dark"
+search: true
+paginate: 5 
+paginate_path: blog/page:num/
+
+include:
+  - _pages
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      classes: wide
+      
+
+    
 
 # Exclude from processing.
 # The following items will not be processed, by default.

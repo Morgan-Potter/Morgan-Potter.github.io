@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Ultrasonic Cave Mapper Report'
-date: 2022-06-08 00:00:00 +1100
-categories: blog
----
 
 This week in Mechatronics, I completed my cave mapper project which involved wiring, re-coding and writing the task. Getting to take the robot home, I realised that I had not done as much work on it as I thought, especially regarding the coding.
 

@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Finite State Machines'
-date: 2022-02-27 13:00:00 +1100
-categories: blog
----
 
 This week I completed two simple finite state machine tasks - involving visualizing them on paper, and coding them in python. The finite state machines were a garage door, and a vending machine. Finite state machines on paper are a good way to visualize an object that simplifies understanding what you need to code. Additionally, finite state machines on paper can be easily converted to code. 
 

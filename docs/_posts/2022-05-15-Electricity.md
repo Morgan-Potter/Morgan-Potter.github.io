@@ -1,9 +1,3 @@
----
-layout: post
-date: 2022-05-15 00:00:00 +1100
-title: Understanding Electricity
-categories: blog
----
 
 This week in Mechatronics, I completed the assigned tasks about the fundamentals of electricity, and Ohms law. After the completion of these tasks, a classmate and me was able to do the maths for the effect of resistors in succession, and resistors in parallel. 
 

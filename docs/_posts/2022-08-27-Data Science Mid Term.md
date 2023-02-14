@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Data Science Mid Term'
-date: 2022-08-27 00:00:00 +1100
-categories: blog
----
 
 <h3>Work I Completed</h3>
 

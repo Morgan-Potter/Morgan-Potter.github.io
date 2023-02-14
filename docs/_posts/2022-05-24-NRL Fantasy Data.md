@@ -1,9 +1,3 @@
----
-layout: post
-title: "NRL Fantasy Data"
-date: 2022-05-24 00:00:00 +1100
-categories: blog
----
 
 This week I got my data science assignment, and began work creating a dataset. My data science assignment involves taking a dataset, and creating a scientific report with a specific focus on data visualizations. I have had time to think about what dataset I want to do, for which we were given a long list. I decided to ditch the list, and do a dataset that sounds more fun, and I decided on the NRL Fantasy Dataset. The only problem with this idea is that the data is not openly available for download. I began figuring out how to scrape the online dataset, when a classmate looked into network in inspect element and found 5-6 JSON files with all the data in it. These were a combination of several datasets, there is player data, team data, even individual stadium data. The JSON files also included the Fantasy Coach paid subscription data. There was more data to use than I knew what to do with.
 

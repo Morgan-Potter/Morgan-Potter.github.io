@@ -1,9 +1,3 @@
----
-layout: post
-date: 2022-09-04 00:00:00 +1100
-title: 'Robotics Update'
-categories: blog
----
 
 <h3>Work I Completed</h3>
 

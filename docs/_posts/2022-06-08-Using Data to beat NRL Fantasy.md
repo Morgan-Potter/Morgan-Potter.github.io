@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Using Data to Beat NRL Fantasy'
-date: 2022-06-08 00:00:00 +1100
-categories: blog
----
 
 This week in Data Science I completed my NRL Fantasy project. Since I had done so little work on the project, i had to both code it and write the report over the weekend. This probably meant that the project was not very high quality, but I tried my best in the time that I had. I ended up deciding on what topic to do my project on - that being how the free Fantasy data can be used to predict the future of a players price. I chose price instead of points because price is not so dependent on random human error.
 

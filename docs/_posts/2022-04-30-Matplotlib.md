@@ -1,9 +1,3 @@
----
-layout: post
-title: 'MatPlotLib'
-date: 2022-04-30 00:00:00 +1100
-categories: blog
----
 
 This week I completed the assigned Matplotlib tasks 0-2. Matplotlib is a graphing library for python. These helped me gain a better understanding of Matplotlib by explaining small portions of the library. Task 0 walked through Numpy arrays, task 1 explained the basics of matplotlib, and task 2 explained some more advanced plotting functions. 
 

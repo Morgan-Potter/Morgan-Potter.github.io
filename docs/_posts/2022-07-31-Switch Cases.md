@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Switch Cases'
-date: 2022-07-31 00:00:00 +1100
-categories: blog
----
 
 <h3>Work I completed</h3>
 

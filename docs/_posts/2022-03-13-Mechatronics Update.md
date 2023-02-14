@@ -1,9 +1,3 @@
----
-layout: post
-title: "Mechatronics Update and Research Reports"
-date: 2022-03-13 12:20:00 +1100
-categories: blog
----
 
 Before writing this post, I realised I have not done any mechatronics work this week. I was planning to continue to work through the Arduino examples, and extend myself on one of them. I would have liked to work with servo motors this week, as many robotics projects require them. It would also be beneficial to learn the math behind resistors, I understand why they are needed, but not how they affect the system. If I knew that, I would feel more confident creating Arduino projects without a guide.
 

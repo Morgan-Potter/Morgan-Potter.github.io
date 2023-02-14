@@ -1,9 +1,3 @@
----
-layout: post
-date: 2022-05-30 00:00:00 +1100
-title: 'Cave Mapper'
-categories: blog
----
 
 This week I completed a lot of work on my robotics project. In last weeks blog posts, I detailed my initial thoughts toward my robotics project, and thought of the possiblity of making a robo-dog. After further consideration, I decided to make an ultrasonic sensor that maps out the surrounding area. This is a good project, as it has lots of applications for further robotics projects, and it is a project that pushes me to write more advanced C++ code. This week I was able to write most of the written report, design and 3d-print the body, and try to code it.
 

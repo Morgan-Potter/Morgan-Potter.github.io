@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Journal Entry Format'
-date: 2022-07-26 00:00:00 +1100
-categories: blog
----
 
 I have finally completed semester 1 of Year 11 and with this completion came the marks from all of my IT assessment. I submitted 6 tasks over the semester, and ranked 1st and 2nd in the faculty (ranking against myself). This is obviously a great result, my IT subjects barely being my strongest subjects across all scaling groups, however there were areas of significant improvement. These blog posts in particular were of poor quality, landing the final score of around 80% for both IT strands. My other IT assignments in comparison averaged above 95%, meaning if I were to bump up the quality of these reflections, my overall unit scores would significantly improve, potentially into the territory of above 95. This seems a very lucrative goal, as it would bump 2/4 subjects up by ~5%, helping me to get closer to my 99+ ATAR goal. 
 

@@ -1,9 +1,3 @@
----
-layout: post
-title: "Standard Distribution"
-date: 2022-05-09 00:00:00 +1100
-categories: blog
----
 
 This week in Data Science, I did not complete much in terms of the assigned tasks, but I did take a look into generating a standard distribution graph in python. I did not complete the MatPlotLib part 3 task, as I was side-tracked by creating this graph. The data I used was data collected for my physics assignment on measuring the speed of sound, however doing this graph was mostly a waste of time. I was using matplotlib to try and make the graph, however it would have been better to complete the assigned work. 
 

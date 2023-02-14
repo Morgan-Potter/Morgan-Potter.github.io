@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Micro:Bits'
-date: 2022-02-20 17:54:00 +1100
-categories: blog
----
 
 This week I completed the Micro:Bit crash course by Grok Learning. This course was broken into 10 sections with around 3-4 coding problems per section. Each section covered the functions of Micro:Bits including: display, audio, accelerometer, button, pin and radio functions. Most of the problems are simple, around 10 lines of code each however they increase in difficulty as the course continues. The final challenge was a game show, which involved creating the host and player code. Interacting over the radio function, the host would send a labelled message to each competitor, and whoever returned a buzzer first would be the victor. This challenge combined all covered areas within the course, and took about 30 minutes to complete - it was not overly difficult. I'm hoping this base knowledge will serve as a foundation for future projects. 
 

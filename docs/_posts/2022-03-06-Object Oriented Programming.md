@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Object Oriented Programming'
-date: 2022-03-06 5:00:00 +1100
-categories: blog
----
 
 This week I started an object-oriented programming (OOP) python challenge. This challenge gives information regarding classes, functions, and constructors and gives an OOP code example which simulates logic gates. I have completed part one of the challenge: adding NAND, and NOR gates to the existing list of AND, OR, and NOT gates and proving `NOT((A AND B) OR (C AND D))` is the same as `NOT(A AND B) and NOT(C AND D)`. Adding the gates was simple, I just copied the AND gate and the OR gate and flipped the output. I was a little confused as to whether a NAND and NOR gate flipped the two inputs, or flipped the output, however looking at the truth tables cleared my doubts.
 

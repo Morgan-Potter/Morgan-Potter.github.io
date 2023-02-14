@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Getting Started with Arduinos'
-date: 2022-02-27 13:00:00 +1100
-categories: blog
----
 
 This week I got the opportunity to begin tinkering with Arduinos. To learn the basics, I completed some simple projects created by DF robot. I completed 3 challenges - a simple blinking light, a light blinking SOS in moarse code and a simple traffic light simulation. 
 

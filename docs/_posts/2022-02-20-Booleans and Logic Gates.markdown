@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Booleans and Logic Gates'
-date: 2022-02-20 13:15:00 +1100
-categories: blog
----
 
 This week I covered boolean operators and logic gates. This included learning and, or, and not boolean operators and passing this knowledge to nor, nand, exor and exnor logic gates. One challenge involved creating a compound operator / logic gate that always returns a 1. I created a functional compound operator, but it is most likely not the most efficient (it uses 3 logic gates), and I would not know how to go about creating a more efficient one. This is a sign I did not fully grasp the content covered. Next time it may be wise to attempt to make a better solution - then I would be able to consolidate my knowledge in a better final result. I now better understand how bitwise operators like `&&`, and `||` work, which may help when an unexpected error occurs.
 

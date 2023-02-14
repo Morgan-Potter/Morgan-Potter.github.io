@@ -1,9 +1,3 @@
----
-layout: post
-date: 2022-09-13 00:00:00 +1100
-title: 'Computer Stereo Vision'
-categories: blog
----
 
 ### Work I Completed
 

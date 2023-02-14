@@ -1,9 +1,3 @@
----
-layout: post
-title: 'OOP Logic Gate Simulation'
-date: 2022-03-12 22:30:00 +1100
-categories: blog
----
 
 This week I completed the object-oriented programming (OOP) logic gate simulation challenge. There was a massive difficulty spike between starting, and finishing this challenge. I thought understanding the given code was the hard part, but far from it. As there are many steps, I will summarise the process. I had to understand an article explaining how to turn a written circuit into a diagram, a 7 step process requiring me to learn Karnaugh maps. I had to code a JK flip flop using a Karnaugh map formula, and finally create the circuit diagram in the simulation. 
 

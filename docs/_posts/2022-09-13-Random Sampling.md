@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Random Sampling'
-date: 2022-09-19 00:00:00 +1100
-categories: blog
----
 
 ### Work I Completed
 

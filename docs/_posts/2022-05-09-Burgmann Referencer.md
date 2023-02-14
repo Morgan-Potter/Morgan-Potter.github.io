@@ -1,9 +1,3 @@
----
-layout: post
-date: 2022-05-09 00:00:00 +1100
-title: "Burgmann APA Referencer"
-categories: blog
----
 
 This week I was given the go ahead to turn my python APA referencer into a website by the schools librarian. I got conformation that this may be something that could be distributed to other students. This gave me the opportunity to learn html+css, and start learning front-end JavaScript. Although this is not related to my IT classes, it is something I have been meaning to learn regardless. On Friday, I completed the html+css beginner course on Grok, which gave me a decent understanding of the concept. I learnt how to make crude headers, document structure, coloring, images, essentially all the basics. The only I had with the course was it's directions, it was too explicit in coding instructions, meaning there was no need for problem solving, and no need to properly learn how, and what each function does. Despite this, on saturday I began work creating the homepage for the referencer.
 

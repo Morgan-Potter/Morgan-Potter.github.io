@@ -1,9 +1,3 @@
----
-layout: post
-title: Robotics Mid-Term Exam
-date: 2022-08-27 00:00:00 +1100
-categories: blog
----
 
 <h3>Work I Completed</h3>
 

@@ -1,9 +1,3 @@
----
-layout: post
-title: Anatomy of MatPlotLib 3 and Website Update
-date: 2022-05-15 00:00:00 +1100
-categories: blog
----
 
 This week in data science I completed the third MatPlotLib task, about graph customization. This task detailed how to change features on graphs such as colour, markers, line styles and many other plot attributes. Using the knowledge I gained in the task, I was able to complete the associated exercises. 
 

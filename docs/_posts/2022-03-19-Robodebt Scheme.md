@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Robodebt Scheme'
-date: 2022-03-18 00:00:00 +1100
-categories: blog
----
 
 This week I made a short report on the Robodebt scheme. The report covered the algorithm itself, its impacts, and the ethics and morals surrounding it. I found this report very interesting and went 400 words over the limit. I probably could have reduced the report down to 250 words, but I did not want to take out content - it was such a big issue and I had to wrap my head around it.
 

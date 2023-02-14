@@ -1,9 +1,3 @@
----
-layout: post
-title: 'Data Science Update'
-date: 2022-05-30 00:00:00 +1100
-categories: blog
----
 
 This week I did not complete much work in Data Science. Most of my time during the lessons was spent doing robotics, which I have nearly finished. To reflect, I do not think I have done any less work than other weeks, I have just done twice the work in robotics. Seeing as the assignment is coming up, I will have to focus on data science a lot more this week. 
 
