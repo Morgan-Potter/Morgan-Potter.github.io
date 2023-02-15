@@ -32,6 +32,9 @@ author:
     - label: 'GitHub'
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Morgan-Potter"
+    - label: 'Email'
+      icon: "fal fa fa-envelope"
+      url: "mailto:morganpotter005@gmail.com"
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
@@ -41,7 +44,7 @@ plugins:
 minimal_mistakes_skin: "dark"
 search: true
 paginate: 5 
-paginate_path: blog/page:num/
+paginate_path: /blog/page:num/
 
 include:
   - _pages
