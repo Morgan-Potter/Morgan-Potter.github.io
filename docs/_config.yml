@@ -27,13 +27,12 @@ author:
   avatar: "/assets/author.jpg"
   bio: Hi, my name is Morgan Potter. I am a year 12 student currently studying at Burgmann Anglican School. I created this website as a weekly log of projects, challenges, ideas and self-reflection as my learning in IT continues through college.
   location: ACT, Australia
-  email: morganpotter005@gmail.com
   links:
     - label: 'GitHub'
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Morgan-Potter"
     - label: 'Email'
-      icon: "fal fa fa-envelope"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:morganpotter005@gmail.com"
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
