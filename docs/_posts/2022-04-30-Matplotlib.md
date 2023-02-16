@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week I completed the assigned Matplotlib tasks 0-2. Matplotlib is a graphing library for python. These helped me gain a better understanding of Matplotlib by explaining small portions of the library. Task 0 walked through Numpy arrays, task 1 explained the basics of matplotlib, and task 2 explained some more advanced plotting functions. 
 
 Task 0 had no questions, and hence the task was quite easy - just requiring some reading. Questions help me to remember and understand the content I am learning, and without them, I end up forgetting the content. As this task had no questions, I cannot even remember how to create a numpy array. Although my understanding of Numpy arrays is limited, it will improve as I continue to look further into matplotlib, as the two are closely intertwined.

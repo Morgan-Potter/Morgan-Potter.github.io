@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week in Mechatronics, I completed my cave mapper project which involved wiring, re-coding and writing the task. Getting to take the robot home, I realised that I had not done as much work on it as I thought, especially regarding the coding.
 
 Wiring quite annoying as when I first tried to run the robot, the servos would give random movements, and the serial would not work. There are two main reasons for this, one is that the Arduino cannot provide enough current to drive two servos and serial, and the other being that I mistakably had the servos connected to pins 0, and 1 which are used for serial communication. This essentially meant it was having a hard time driving the servos, and the servos were trying to move whenever the Arduino tried to interact with serial. I fixed these issues by using an external battery pack to drive only the servos, and plugging the servos into pins 2, and 3. This got me to the point of being able to spin the ultrasonic head 360 degrees whilst using serial, but I still needed to fix the code for the actual implementation, as it was not good. Additionally, I had to add a resistor onto the button as it was being unpredictable. These bugs were quite frustrating and took awhile for me to figure out the problem, however if I did not take the robot home to wire it I would not of had the time to fix them. The updated circuit diagram is below.

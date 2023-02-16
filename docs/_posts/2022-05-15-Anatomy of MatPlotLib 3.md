@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week in data science I completed the third MatPlotLib task, about graph customization. This task detailed how to change features on graphs such as colour, markers, line styles and many other plot attributes. Using the knowledge I gained in the task, I was able to complete the associated exercises. 
 
 Changing plot attributes is inherently easy, most simply requiring a plot function argument. Some attributes are more difficult than others. Changing attributes becomes confusing when you want to make each line, and each set of markers have different colours. I had to search this up whilst doing one of the exercises - you have to edit the markerfacecolor attribute, which was not covered in the document. Other than that slight setback, the whole task was rather easy, how hard can editing colors be?

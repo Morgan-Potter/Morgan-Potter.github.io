@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week I completed the object-oriented programming (OOP) logic gate simulation challenge. There was a massive difficulty spike between starting, and finishing this challenge. I thought understanding the given code was the hard part, but far from it. As there are many steps, I will summarise the process. I had to understand an article explaining how to turn a written circuit into a diagram, a 7 step process requiring me to learn Karnaugh maps. I had to code a JK flip flop using a Karnaugh map formula, and finally create the circuit diagram in the simulation. 
 
 Understanding the article was difficult, but it proposed a very compelling way of creating a circuit diagram - finite state machine, truth table, Karnaugh map, formulae, circuit diagram. The idea of a Karnaugh map is especially exciting to me - an easy way of creating a boolean algebra formula. Learning the 44 boolean algebra laws is not appealing for me. I used a Karnaugh map to determine the formula for a JK flip-flops next output, and used this formula in the JK flip flop class. See below: 

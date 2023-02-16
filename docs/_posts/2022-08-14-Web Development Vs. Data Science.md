@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 <h3>Work I Completed</h3>
 
 This week I attempted to switch from data science to web development as I enjoyed developing my APA referencing generator. Data science was fun last semester, and it was my highest marked subject, however web dev seems highly useful (I could just make a website for anything), and I enjoy doing it. In terms of marks, I do not think I would get lower grades in web development, especially considering I got a similar score to data science in robotics. In terms of the content covered, I was in a pretty good position to switch. As I completed the referencing generator project, I already learnt the content covered last semester, meaning that I would have no trouble meshing in. The exciting content covered that I would miss in data science is a deep look into machine learning, however in class we agreed to cover a lighter machine learning overview in robotics, as machine learning is evermore becoming an important part of robotics. Joining web dev seemed like a win-win, so I decided to switch classes. 

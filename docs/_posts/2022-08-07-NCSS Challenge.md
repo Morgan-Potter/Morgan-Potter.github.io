@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 <h3>Work I Completed</h3>
 
 Over the past two weeks I have been working to complete the Advanced NCSS challenge to improve my Python programming, and to strengthen my application for the NCSS Summer School. The challenge has a simple Grok format - a brief problem description and then a section for writing a solution. The problems follow the ideology of concept to code - the description will never ask for you to determine an original algorithm for a problem, the solutions are explained to you. This makes it more straightforward, the only difficult area of this challenge is understanding how to code a solution into existence, not finding the solution itself. I have completed the first two weeks of challenges, which were increasingly difficult. The most difficult of which was the last problem of week two.

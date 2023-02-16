@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 <h3>Work I completed</h3>
 
 This week in robotics / mechatronics I completed the assigned switch case circuit, with my own spin. The task involved wiring a potentiometer to an Arduino and creating a switch case which displays a different message on serial depending on potentiometer resistance. The original circuit was simple, simply involving the direct connection of the potentiometer to 5v, ground and an analog input. The code was also not very complex, the potentiometer value was divided by 255, breaking it into 5ths, and then a switch case was created to evaluate whether the potentiometer was set under one of those 5ths. I created my modified version in the tinkercad circuit simulator, as I did not have the necessary circuitry at my house. The circuit is displayed below.

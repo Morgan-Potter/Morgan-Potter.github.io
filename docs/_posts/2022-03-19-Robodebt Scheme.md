@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week I made a short report on the Robodebt scheme. The report covered the algorithm itself, its impacts, and the ethics and morals surrounding it. I found this report very interesting and went 400 words over the limit. I probably could have reduced the report down to 250 words, but I did not want to take out content - it was such a big issue and I had to wrap my head around it.
 
 I find the incompetency of the government IT team baffling. The main issue regarding the algorithm was that they used average income data and compared it to welfare data as if it was actual income data. Mistaking averages for real data is something I have done in year 9 statistics, but should not be done in any governmental department. Surely someone thought that this was a bad idea, I like to think I could make a better algorithm.

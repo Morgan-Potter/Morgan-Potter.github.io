@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week I began work and submitted a draft for my assessable mechatronics research report. This report is on Shakey the Robot, heralded as the first robot to think. The task involves researching the history, technology, and societal impacts of Shakey. I did not get time to discuss the history of Shakey, as 90% of my assessment seems to be due in the last week of term. I did get to discuss the software and hardware within Shakey, which is quite amazing for the time. Shakey was able to use computer vision and pathfinding to traverse obstacles, move objects, and block doors, all with barely any human input. It is amazing that they did this in 1972, I was 33 years from even being born. The software developed for Shakey is still being used in robots today, Shakey was a true marvel. 
 
 |![Shakey](/assets/Shakey-the-Robot/Shakey.jpg)|

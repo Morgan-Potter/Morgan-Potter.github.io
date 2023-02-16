@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week I got the opportunity to begin tinkering with Arduinos. To learn the basics, I completed some simple projects created by DF robot. I completed 3 challenges - a simple blinking light, a light blinking SOS in moarse code and a simple traffic light simulation. 
 
 ![Arduino Traffic Light Simulation](/assets/Arduino_Traffic_Light.jpg){:class="img-responsive"}

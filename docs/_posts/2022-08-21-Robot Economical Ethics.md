@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 <h3>Work I Completed</h3>
 
 This week in robotics I looked through the robot ethics task assigned in preperation for the upcoming exam. This task simply involved reading an article covering robot ethics, and pressumably understanding it. I decided to write notes on the ~ 1.5 pages of content. The content focused more specifically on the economical impact of robotics, caused by the creation and removal of jobs. The article was written in a Stanford encyclopedia, so I assume it is accurate. I will try to summarize it.

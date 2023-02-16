@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 <h3>Work I Completed</h3>
 
 This week in Mechatronics, I attempted a modified EEPROM Arduino challenge. The original EEPROM challenge comprised of wiring up a button, and using the EEPROM to store a counter for the number of times the button had been pressed. The impressive thing about this, is that the counter could maintain it's count even if the arduino was powered down. This is why EEPROM is useful - unlike RAM, it can retain data even after it is powered down. I coded, and constructed this circuit in Tinkercad, however since I copy and pasted the code, it only took me around 5 minutes. I felt that 5 minutes was not enough time to fully understand EEPROM, so I decided to make the challenge a little harder for myself.

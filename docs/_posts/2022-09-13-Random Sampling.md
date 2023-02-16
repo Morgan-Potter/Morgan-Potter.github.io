@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 ### Work I Completed
 
 Although admittedly late, this week in data science, I worked through the assigned random sampling work. With the computational power I currently have access to, processing big data in the next assessment task will be an issue. The sheer size of big data means a single threaded python program run on the CPU will take forever to create a big data visualization. Besides using the ANU supercomputer (i cannot be bothered), there are workarounds to utilize more of my hardware, or lower the computing power required. One such workaround is random sampling, which involves randomly taking a small part of the big data, and using it for analysis. In theory, because the selection is random, it will be representative of the whole data set. The sampled data is significantly smaller than the whole dataset, and hence requires less computing power. 

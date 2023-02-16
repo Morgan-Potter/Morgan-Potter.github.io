@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 I can write my blog here and it actually works properly right? and I can also do cool things like `this`.
 
 And I can insert python code like this:

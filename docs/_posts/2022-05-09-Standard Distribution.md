@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week in Data Science, I did not complete much in terms of the assigned tasks, but I did take a look into generating a standard distribution graph in python. I did not complete the MatPlotLib part 3 task, as I was side-tracked by creating this graph. The data I used was data collected for my physics assignment on measuring the speed of sound, however doing this graph was mostly a waste of time. I was using matplotlib to try and make the graph, however it would have been better to complete the assigned work. 
 
 I thought that the graph would be beneficial to my physics assignment to understand if there was a standard error involved in measurement, and possibly how to compensate for this. Both fortunately, and unfortunately, my method went quite flawlessly - the final average being within 6m/s of the theoretical speed of sound. This means that I can say that my method was effective, and why, but also makes it harder to analyse the data for possible flaws in the experiment - i.e. I have less smart person things to say.

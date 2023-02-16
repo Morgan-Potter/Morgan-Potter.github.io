@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 I have finally completed semester 1 of Year 11 and with this completion came the marks from all of my IT assessment. I submitted 6 tasks over the semester, and ranked 1st and 2nd in the faculty (ranking against myself). This is obviously a great result, my IT subjects barely being my strongest subjects across all scaling groups, however there were areas of significant improvement. These blog posts in particular were of poor quality, landing the final score of around 80% for both IT strands. My other IT assignments in comparison averaged above 95%, meaning if I were to bump up the quality of these reflections, my overall unit scores would significantly improve, potentially into the territory of above 95. This seems a very lucrative goal, as it would bump 2/4 subjects up by ~5%, helping me to get closer to my 99+ ATAR goal. 
 
 A mistake I made in journal entries during semester 1 was not looking enough into the task sheet and subsequently not including many of the crucial aspects of the rubric. Upon receiving my marks back, I now have both the task sheet and feedback from the semester 1 attempt, giving me a lot of information to improve quality.

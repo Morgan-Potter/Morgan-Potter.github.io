@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 ### Work I Completed
 
 This week in robotics I did the Serial Peripheral Interface (SPI) work. This was a rather quick task, but through it I have gained a basic understanding of how SPI works, and how to use it with an Arduino to communicate with devices with a seperate clock. The issue with serial communication is the non-syncronised clocks within the two systems. Considering the baseline components of a computer revolve around a single clock, it becomes difficult to communicate with other devices when there are slight variations in clock speed. The standard Arduino serial communication solution is asynchronous, but avoids synchronization through having a set transmission speed, and a start and stop bit to sync data as it arrives. These workarounds are also the flaws of asyncronous serial communication - the devices have to have the same baud rate, and have to send two extra bits per byte. SPI is a synchronous solution, and hence does not have as many downsides.

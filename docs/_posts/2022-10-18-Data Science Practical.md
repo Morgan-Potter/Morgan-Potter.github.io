@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 ### Work I Completed
 
 This week in Data Science we were given our practical projects, and I have had a chance to consider how my assignment is going to look. The assignment follows the conventions of the previous practical, however requires the analysis of a big data set with > 1 000 000 rows. The assignment is broken down like a scientific report, with a hypothesis, results, discussion and conclusion. To begin writing my assignment I need a dataset, and a premise for analysis. Previously, I used NRL Players Fantasy data to predict when a player is likely to spike up, and then when that player would spike down in price. If I were to continue this NRL Fantasy trend, it would be wise to instead analyse the trends of successful coaches (i.e. the users playing NRL Fantasy). There are 205 219 coaches, and 25 rounds - meaning there are 5 130 475 possible teams to be analysed. This certainly meets the big data requirement.

@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 <h3>Work I Completed</h3>
 
 This week I completed the extended response robotics mid term exam. This exam went for one hour, and required the essay-like response to a statement. The statement said that robotic automation in the workplace would cause major problems, and my stance was in agreement. During the exam, I had access to two stimulus data visualizations related to the statement, my notes, and the internet. I believe that my response was well written, and informative, however did not exert a good enough argument. Despite this, I am happy with my response considering how much I had to catch up on my Physics exam, which I sat on the same day.

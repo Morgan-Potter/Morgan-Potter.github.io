@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 <h3>Work I Completed</h3>
 
 Over the past month I have been continually working on the Burgmann APA referencing generator website, and it is extremely close to completion. As discussed in my previous post about the topic, I learned how to code using HTML+CSS+JS specifically for this project, so I am quite excited about the progress. Two months ago I had completed the main HTML+CSS elements, and learned JS cookies. Now I have coded all the functional elements (replacing cookies with localStorage), but have yet to finalize the styling. I have also showed the working website to the schools librarian, and they are taking the website to the faculty heads to discuss how it could be used - hopefully they will officially support it. This project was such a big learning experience, I could honestly discuss it for 10,000 words, but I will try to condense it to main points.

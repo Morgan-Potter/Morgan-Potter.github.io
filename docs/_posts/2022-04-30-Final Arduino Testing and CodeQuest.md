@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week I finished the example arduino projects, and competed in Lockheed Martin Codequest. The arduino projects was something I had been behind on for a long time, as I had been spending my time creating my own projects. I was able to smash out 3 example projects in one lesson, as I copied the code for them from the project guide. This helped me to get the projects done but did not help me to learn C++. Doing a project on my own requires me to write the code for it, which is much more beneficial for my overall learning. These projects had to get done before my assignment though, so it was good getting them done so quickly. None of the circuitry was too hard to set up with a guide, 2/3 projects are below.
 
 <p align="center">

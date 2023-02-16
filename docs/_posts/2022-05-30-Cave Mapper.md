@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week I completed a lot of work on my robotics project. In last weeks blog posts, I detailed my initial thoughts toward my robotics project, and thought of the possiblity of making a robo-dog. After further consideration, I decided to make an ultrasonic sensor that maps out the surrounding area. This is a good project, as it has lots of applications for further robotics projects, and it is a project that pushes me to write more advanced C++ code. This week I was able to write most of the written report, design and 3d-print the body, and try to code it.
 
 The report was mostly written around fitting the ultrasonic sensor into the task. I came up with the idea before defining the problem, or discussing the possible solutions. Working backwards made writing the report easier, as I knew exactly where I was trying to get with it. I used the problem of the difficulties of cave mapping, and proposed the ultrasonic sensor as a fast alternative to traditional methods. Coming up with the idea before hand was fine due to the vagueness of what problem we had to solve, but in a report that defines the problem for you, this would not be ok.

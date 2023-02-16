@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week I received my draft feedback for my Robodebt task and completed the assignment. This was more difficult to do than the Shakey assignment, as it was much less polished, and there was less content. My original report was classwork, and contained around 600 words of informal research, on similar, but not identical research questions. This meant that a significant portion my time spent of the assignment was re-organizing and re-writing parts of the old report. My old report also did not have in-text referencing, so I had to find references for things that needed it. I gave myself very litle time to do all of this, and I am quite proud of the resulting report. I was able to format this report in LaTeX, for a nicer aesthetic. A picture of my title page is below.
 
 <p align="center">

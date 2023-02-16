@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 <h3>Work I Completed</h3>
 
 This week I completed my data science extended response exam. This exam was very similar to the robotics exam, the only difference being the statement and required knowledge. The statement for this exam was surrounding whether big data is intentionally bias due to the data analyst. I felt more prepared going into this exam as I had already completed a similarly formatted robotics exam, however it did not exactly go to plan. I had looked closer at the rubric before this exam, and made a more detailed plan with data bias information. The problem was I had created this plan surrounding my incorrect guess of the statement, which caused issues during the exam.

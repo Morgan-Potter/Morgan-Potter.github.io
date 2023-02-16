@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 ### Work I Completed
 
 Unfortunately this week I have been away from school for 3/5 days. In this time, I had the opportunity to work on my Literature assignment, which became a priority after I found out PeCan was on this weekend. During the week, the only thing IT related I have done is consider the options for my practical Robotics project next term. This is a rather large decision to make, as I want to keep improving this project in further tasks, so at the end of year 12 I will have something very advanced. It is difficult to justify improving my last robotics project, as the ultrasonic sensor is just too inaccurate. I can however use a different technology to achieve the same goal, only better.

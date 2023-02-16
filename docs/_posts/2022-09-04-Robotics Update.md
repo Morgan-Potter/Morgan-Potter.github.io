@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 <h3>Work I Completed</h3>
 
 This week in Robotics/Mechatronics, I have been away for 3/5 school days. This means that I have not done much work on IT. In the classes that I did have, I was doing the work discussed in this week's other blog post. I have spent the entire week completing my ANU Discovering Engineering assingment which is essentially Robotics. Considering I have no other work to discuss, I will talk about that. This task was an electronics and programming take-home test comprising of 3 questions. Each question had atleast 4 sub questions, so it was deceivingly long.

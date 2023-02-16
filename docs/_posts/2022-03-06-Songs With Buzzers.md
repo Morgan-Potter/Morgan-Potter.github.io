@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week I set out to create an original Arduino project so I could test my current knowledge. I chose to modify the buzzer project from the examples so I could create my own project whilst continuing the examples. I found the notes and frequencies for the super mario brothers theme online, and made it play on the buzzer. I also added a potentiometer to control the speed of the song, and I added two buttons to increase and decrease the octave. Wiring was simple, as there are little ways to do it, the coding was the hard part.
 
 ![Garage Door FSM Diagram](/assets/Arduino_Buzzer.jpg)

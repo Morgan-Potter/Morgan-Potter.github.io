@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week I attempted to simulate a JK flip flop with an Arduino. Although the circuit does not currently work, it should be a quick fix. I first created the circuit, which included wiring two buttons: `J` and `K`, and wiring two LEDs: `Q` and `notQ`. My idea was to use the buttons to switch `J` and `K` to 1 and 0 respectively, and to use LEDs to display the output and inverse output.
 
 ![Circuit](/assets/Arduino-JK-Flip-Flop/Circuit.jpg)

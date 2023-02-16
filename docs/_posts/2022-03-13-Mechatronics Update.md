@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 Before writing this post, I realised I have not done any mechatronics work this week. I was planning to continue to work through the Arduino examples, and extend myself on one of them. I would have liked to work with servo motors this week, as many robotics projects require them. It would also be beneficial to learn the math behind resistors, I understand why they are needed, but not how they affect the system. If I knew that, I would feel more confident creating Arduino projects without a guide.
 
 The reason I was not able to do any of this during the week is because I had too many other things to do in my IT classes. I was behind in the OOP Logic Gate challenge, so that took all the free time I had in IT, and the other time was spent learning about cyber security for the upcoming competition. I should have taken some time to do the challenge at home, and spent my class time doing mechatronics. Next week I will navigate that better, I still have cyber security work, but I should get some time free. 

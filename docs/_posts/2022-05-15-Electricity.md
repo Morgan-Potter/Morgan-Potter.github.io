@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Robotics / Mechatronics"
+---
 This week in Mechatronics, I completed the assigned tasks about the fundamentals of electricity, and Ohms law. After the completion of these tasks, a classmate and me was able to do the maths for the effect of resistors in succession, and resistors in parallel. 
 
 The fundamentals of electricity task mainly required me to read, and remember - no exercises were involved. The content discussed the flow of valence electrons, the catalyst for this flow, and the measurement of this potential catalyst. Valence electrons are allowed to flow from atom-to-atom, as electromagnetic attraction between the electrons and protons is weakest in the outer shell. This means that a catalyst contains enough force to push a valence electron into another valence shell, causing the original valence electron to also get pushed. This catalyst is almost always a build up of electromagnetic force from detached-groups of protons and electrons trying to get to each other. The quantitative charge that could be produced from this is called electric potential. Electric potential is measured in volts, but it is not to be confused with voltage, or difference in electric potential (which is also measured in volts). Voltage defines the amount of work needed to move an element from one position to another. This is all very confusing, and is not at all an extensive comprehension of electricity, however it is beneficial to understand the basics as a foundation for future work. The work I am doing at the moment does not require this knowledge, but future work may.

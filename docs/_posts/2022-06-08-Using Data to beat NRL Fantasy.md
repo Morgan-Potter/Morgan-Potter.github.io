@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 This week in Data Science I completed my NRL Fantasy project. Since I had done so little work on the project, i had to both code it and write the report over the weekend. This probably meant that the project was not very high quality, but I tried my best in the time that I had. I ended up deciding on what topic to do my project on - that being how the free Fantasy data can be used to predict the future of a players price. I chose price instead of points because price is not so dependent on random human error.
 
 Whilst coding the project, I was given the extra challenge of making my code efficient, which is something I realised I have not thought about much. My dataset was in JSON format, so loading into python created a lot of dictionaries to sort through. I cleaned the data by taking the stats, and players wanted from the set, and then converting there format into one more easily readable by matplotlib. The efficiency of my code I realise is very questionable, as I did not really plan out how my functions were going to work with each other. I kind of did it as I went along, meaning that some functions needed extra statements to allow them to mesh together. My code was only around 200 lines, so at least it was somewhat concise - I made the functions work for multiple stats to help with this. Overall my coding was ok, and there is definitely room for improvement in the next project. My main visualization is below.

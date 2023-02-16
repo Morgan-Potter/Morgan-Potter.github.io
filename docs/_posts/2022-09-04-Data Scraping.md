@@ -1,4 +1,7 @@
-
+---
+tags: 
+    - "Data Science"
+---
 <h3>Work I Completed</h3>
 
 During this week, I have been away from school for 3/5 days. It was unfortunate that I took so many days off school, as I did not have time to do IT classwork. There is a whole load of new content that I will need to catch up on in both robotics/mechatronics, and data science. During the week, I did complete some IT related work, however it was not academic. In preparation for the end of the 2022 NRL season, I decided to try and collect NRL Fantasy data on the teams of each coach, for every round. A NRL Fantasy coach is a competing NRL Fantasy user who makes their own team. Each NRL player on a coaches team scores NRL Fantasy points, which when added together determine the coaches score for a given round. I am trying to download the teams and scores of every coach, for every round. There are around 204000 coaches, and there are 25 rounds, meaning around 5000000 teams (assuming every coach started at round 1). With this data, I would be able to analyse the patterns between the most successful teams, and understand how to do better next season. Additionally, this counts as a big data set and it could be used for my data science class work.
