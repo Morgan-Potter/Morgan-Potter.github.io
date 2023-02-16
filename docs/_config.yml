@@ -47,6 +47,15 @@ paginate_path: /blog/page:num/
 
 include:
   - _pages
+
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+
 defaults:
   # _posts
   - scope:
