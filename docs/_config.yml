@@ -62,6 +62,7 @@ defaults:
       related: true
       show_date: true
       classes: wide
+      mathjax: true
       
 
     
