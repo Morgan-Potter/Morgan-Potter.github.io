@@ -10,21 +10,22 @@ Originally I was looking to create a stationary camera system that could map out
 
 As with most "solved" problems, there is seemingly endless research into correcting lens distortion. Deciding on a method is difficult as distortion correction is a large factor into the success of a stereo vision system. There are many types of distortion, however the major two are radial and tangential distortion. Radial distortion causes straight lines to appear curved, becoming larger at father points from the image center with positive radial distortion, or the opposite with negative. This effect is highlighted in the below image where the straight red lines do not line up with the radially distorted checkerboard lines.
 
-![Radial-Distortion]({{ site.url }}/assets/Distortion/radial_distortion.jpg){: .full}
+![Radial-Distortion]({{ site.url }}/assets/Distortion/radial_distortion.jpg){: style:"display: block; margin: 0 auto; width: 30%;"}
 [(OpenCV, n.d.)](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html){: style="text-align: center;"}
 
 Tangential distortion is commonly associated with the de-centering of an image plane, i.e. where the image is skewed from its regular positioning. This is highlighted in the below image where the yellow image plane is skewed from the grey plane. 
 
-![Tangential-Distortion]({{ site.url }}/assets/Distortion/tangential_distortion.png){: .full}
+![Tangential-Distortion]({{ site.url }}/assets/Distortion/tangential_distortion.png){: style:"display: block; margin: 0 auto; width: 30%;"}
 [(Steward, 2021)](https://www.tangramvision.com/blog/camera-modeling-exploring-distortion-and-distortion-models-part-i){: style="text-align: center;"}
 
-These distortions are defined by functions of x and y in the below formulas
+These distortions are defined by functions of x and y in the below formulas:
 
 Radial Distortion
 {: style="text-align: center;"}
 
 \\[
 x_{distorted} = x( 1 + k_1 r^2 + k_2 r^4 + k_3 r^6) 
+\\]\\[
 y_{distorted} = y( 1 + k_1 r^2 + k_2 r^4 + k_3 r^6)
 \\]
 
@@ -33,6 +34,7 @@ Tangential Distortion
 
 \\[
 x_{distorted} = x + ( 2p_1xy + p_2(r^2+2x^2)) 
+\\]\\[
 y_{distorted} = y + ( p_1(r^2+ 2y^2)+ 2p_2xy)
 \\]
 
