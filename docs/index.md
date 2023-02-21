@@ -1,6 +1,7 @@
 ---
 title: "Morgan Potter"
 layout: splash
+permalink: /
 header:
     overlay_image: assets/default_image.jpg
     overlay_color: "#000"
