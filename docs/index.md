@@ -7,8 +7,8 @@ header:
     overlay_color: "#000"
     overlay_filter: "0.5"
 excerpt: "Hello internet surfer or more likely webscrape bot! Checkout my stuff below or in the navbar up top."
-feature_row2:
-    - image_path: assets/projects.jpg
+feature_row:
+  - image_path: assets/projects.jpg
     title: Projects
     excerpt: Visit the Projects page to see some of the cool things I have done.
     url: /projects/
@@ -17,4 +17,4 @@ feature_row2:
 
 ---
 
-{% include feature_row2 type="left" %}
+{% include feature_row id="feature_row" type="left" %}
