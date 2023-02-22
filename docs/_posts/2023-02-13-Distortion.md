@@ -3,7 +3,7 @@ tags:
     - "Robotics / Mechatronics"
 excerpt: "Overcoming camera distortion in computer stereo vision systems."
 header:
-    image:  /assets/Distortion/cover.png
+    image: "/assets/Distortion/cover.png"
     caption: "[(Esparza, Ricolfe-Viala, 2020)](https://www.mdpi.com/1424-8220/20/13/3695)" 
     overlay_color: "#000"
     overlay_filter: "0.5"
