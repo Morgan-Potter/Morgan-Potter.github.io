@@ -10,12 +10,14 @@ Originally I was looking to create a stationary camera system that could map out
 
 As with most "solved" problems, there is seemingly endless research into correcting lens distortion. Deciding on a method is difficult as distortion correction is a large factor into the success of a stereo vision system. There are many types of distortion, however the major two are radial and tangential distortion. Radial distortion causes straight lines to appear curved, becoming larger at father points from the image center with positive radial distortion, or the opposite with negative. This effect is highlighted in the below image where the straight red lines do not line up with the radially distorted checkerboard lines.
 
-![Radial-Distortion]({{ site.url }}/assets/Distortion/radial_distortion.jpg){: style:"display: block; margin: 0 auto; width: 30%;"}
+![Radial-Distortion]({{ site.url }}/assets/Distortion/radial_distortion.jpg)
+{: style:"display: block; margin: 0 auto; width: 30%;"}
 [(OpenCV, n.d.)](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html){: style="text-align: center;"}
 
 Tangential distortion is commonly associated with the de-centering of an image plane, i.e. where the image is skewed from its regular positioning. This is highlighted in the below image where the yellow image plane is skewed from the grey plane. 
 
-![Tangential-Distortion]({{ site.url }}/assets/Distortion/tangential_distortion.png){: style:"display: block; margin: 0 auto; width: 30%;"}
+![Tangential-Distortion]({{ site.url }}/assets/Distortion/tangential_distortion.png)
+{: style:"display: block; margin: 0 auto; width: 30%;"}
 [(Steward, 2021)](https://www.tangramvision.com/blog/camera-modeling-exploring-distortion-and-distortion-models-part-i){: style="text-align: center;"}
 
 These distortions are defined by functions of x and y in the below formulas:
@@ -46,4 +48,28 @@ Distortion \; coefficients=(k_1 \hspace{10pt} k_2 \hspace{10pt} p_1 \hspace{10pt
 
 These coefficients are found by taking several images of a pattern (typically a checkered board), finding the corners of each box pattern and then calculating the disparity between the cameras image, and the real world difference. When considering the image to be flat (i.e z=0) if each box is an equal size, however there are different numbers of captued pixels in each box, this disparity can be calculated via the distortion coefficients. 
 
-Fortunately instead of doing these difficult calculations, the opencv python library has a method for handling it. First
+Fortunately instead of doing these difficult calculations, the opencv python library has a method for handling it. First the corners of the pattern must be found with the below function.
+~~~ python
+ret, corners = cv2.findChessboardCorners(image, (gridx, gridy), output_corners)
+~~~
+If this function returns corners (described by bool ret), their location can be refined with the below function:
+~~~ python
+ref_corners = cv2.cornerSubPix(image, corners, winsize, zeroZone, criteria)
+~~~
+With this data, the camera matrix, distortion coefficients, rotation vectors and translation vectors can be found with the below function:
+~~~
+ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, image.shape[::-1], None, None)
+~~~
+Objpoints is a list of xyz coordinates relating to the checkerboard where z is always 0, i.e [(0,0,0), (1,0,0), (0,1,0) ... (patternx,patterny,0)]. Imgpoints is the previously calculated list of corners. 
+
+A refined cameramatrix can be created on a per-image basis with the below function:
+
+~~~ python
+alpha=1
+width, height = imagew, imageh or img.shape[:2]
+cameramatrix, roi = cv2.getOptimalNewCameraMatrix(mtx, dist, (width, height), alpha, (width, height))
+~~~
+Now finally with all these variables found, the image can be undistorted with the below function:
+~~~ python
+undistorted = cv2.undistort(image, mtx, dist, None, cameramatrix)
+~~~
