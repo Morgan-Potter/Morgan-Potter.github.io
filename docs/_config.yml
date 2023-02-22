@@ -42,8 +42,6 @@ plugins:
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
 search: true
-paginate: 5 
-paginate_path: /blog/page:num/
 
 include:
   - _pages
