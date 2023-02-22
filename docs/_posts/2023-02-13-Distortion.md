@@ -12,13 +12,13 @@ As with most "solved" problems, there is seemingly endless research into correct
 
 ![Radial-Distortion]({{ site.url }}/assets/Distortion/radial_distortion.jpg){: .align-center style="width: 50%;"}
 [(OpenCV, n.d.)](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
-{: .align-center}
+{: .text-center}
 
 Tangential distortion is commonly associated with the de-centering of an image plane, i.e. where the image is skewed from its regular positioning. This is highlighted in the below image where the yellow image plane is skewed from the grey plane. 
 
 ![Tangential-Distortion]({{ site.url }}/assets/Distortion/tangential_distortion.png){: .align-center style="width: 50%;"}
 [(Steward, 2021)](https://www.tangramvision.com/blog/camera-modeling-exploring-distortion-and-distortion-models-part-i)
-{: .align-center}
+{: .text-center}
 
 These distortions are defined by functions of x and y in the below formulas:
 
