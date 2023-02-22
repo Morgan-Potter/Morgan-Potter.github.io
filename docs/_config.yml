@@ -45,6 +45,7 @@ search: true
 
 include:
   - _pages
+  - _includes
 
 defaults:
   # _posts
