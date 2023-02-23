@@ -41,11 +41,12 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
-search: true
 
 include:
   - _pages
-  - _includes
+  - _include
+
+search: true
 
 defaults:
   # _posts
