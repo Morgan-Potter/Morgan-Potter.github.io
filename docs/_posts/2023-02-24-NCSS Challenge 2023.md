@@ -1,6 +1,6 @@
 ---
 tags: 
-    - "Data Science"
+    - "Robotics / Mechatronics"
 excerpt: "Doing the Intermediate NCSS challenge with one line answers because its fun."
 header:
     overlay_image: "/assets/NCSS-Challenge-2023/cover.png"
@@ -81,10 +81,11 @@ print( (lambda a: 'no' if a == 'yes' else 'yes' if a == 'no' else 'Answer not in
 def lambda_func(a):
     if a == 'yes':
         return 'no'
-    elif a == 'no':
-        return 'yes'
     else:
-        return 'Answer not in ["yes", "no"]'
+        if a == 'no':
+            return 'yes'
+        else:
+            return 'Answer not in ["yes", "no"]'
 print( lambda_func( input('') ) )
 
 ~~~
@@ -92,5 +93,6 @@ print( lambda_func( input('') ) )
 </tr>
 </table>
 
+write about how this removes the iterator and indexing
 
-The two main methods are lambda functions (inline functions) and list comprehension. 
+#### Complex examples
