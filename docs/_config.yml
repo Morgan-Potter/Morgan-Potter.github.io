@@ -32,7 +32,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Morgan-Potter"
     - label: 'LinkedIn'
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/morgan-potter-740481252/"
     - label: 'Email'
       icon: "fas fa-fw fa-envelope"

@@ -18,7 +18,7 @@ To start off I want to clarify that I do not count using exec() as one line pyth
 
 There are many methods in python that assist in writing code in one line. Generally these are methods to turn normal syntax into one-line syntax such as conditionals and loops. Originally when I started this I did not understand how to call a lambda function in one line because you generally assign it to a variable. Because of this, instead of using lambda functions, I used a scuffed list comprehension to assign a variable to an input, and to use conditionals. The below line prints the opposite of the input.
 
-<pre><code style="language-python hljs">print( ['no' if a == 'yes' else 'yes' if a == 'no' else 'Answer not in ["yes", "no"]' for a in [input('')]][0] )
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">print( ['no' if a == 'yes' else 'yes' if a == 'no' else 'Answer not in ["yes", "no"]' for a in [input('')]][0] )
 </code></pre>
 
 Yes i know you could achieve a similar result in a much simpler way with a dictionary, but it highlights my original thought process. This line works similarly to a lambda function by iterating through a list of length one with the input in it, meaning the input gets assigned the variable a. To get the string out of the list, it must be grabbed at index 0 of the list comprehension, because there is only one item in the list. Note the weird syntax of inline conditionals - where the internals of the if statement are put before the if, and the else is always placed after it. The table below displays the one-line answer with normal syntax compared to a more conventional solution.
