@@ -31,7 +31,7 @@ Yes i know you could achieve a similar result in a much simpler way with a dicti
 <tr>
 <td>
 
-<pre><code style="language-python hljs">list_comprehension = []
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">list_comprehension = []
 for a in [ input('') ]: # a == input(''), will only iterate once
     if a == 'yes':
         list_comprehension.append('no')
@@ -46,7 +46,7 @@ print(list_comprehension[0]) # the output will always be at index 0.
 </td>
 <td>
 
-<pre><code style="language-python hljs">a = input('')
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">a = input('')
 if a == 'yes':
     print('no')
 elif a == 'no':
@@ -68,12 +68,12 @@ This list comprehension is a very unclear, and inefficient way of solving the pr
 <tr>
 <td>
 
-<pre><code style="language-python hljs">print( (lambda a: 'no' if a == 'yes' else 'yes' if a == 'no' else 'Answer not in ["yes", "no"]')(input('')) )
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">print( (lambda a: 'no' if a == 'yes' else 'yes' if a == 'no' else 'Answer not in ["yes", "no"]')(input('')) )
 </code></pre>
 </td>
 <td>
 
-<pre><code style="language-python hljs">def lambda_func(a):
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">def lambda_func(a):
     if a == 'yes':
         return 'no'
     else:
@@ -89,9 +89,9 @@ print( lambda_func( input('') ) )
 
 #### Complex examples
 
-As the NCSS Intermediate challenge continues, the problems get increasingly more difficult. Due to the one line restrictions, this often means more creative solutions are required to solve any given problem. To maintain integrity, I will give some examples of more difficult problems but will not state which problem they are from, making it harder for someone to stumble upon my answer with a Google search. The most challenging one I completed is below (with line wrapping for your eyes):
+As the NCSS Intermediate challenge continues, the problems get increasingly more difficult. Due to the one line restrictions, this often means more creative solutions are required to solve any given problem. To maintain integrity, I will give some examples of more difficult problems but will not state which problem they are from, making it harder for someone to stumble upon my answer with a Google search. The most challenging one I completed is below:
 
-<pre><code style="language-python hljs" style="white-space: pre-wrap;"> print((lambda a: '\n'.join([i for i in a if i]) + '\nUltra Viral names: ' + str(len([i for i in a if not i])))([f"The '{b}' will go nowhere, the dance already exists!" if b in ['ballet', 'tap', 'jazz', 'belly', 'contemporary', 'ballroom', 'salsa', 'step', 'swing', 'irish', 'modern', 'shuffle', 'floss', 'twisting', 'macarena', 'interpretive', 'wobble', 'flick', 'stomp', 'tango'] else f"The '{b}' will go not viral!" if len(b) == 8 else f"The '{b}' will go slightly viral!" if len(b) < 4 else  f"The '{b}' will go somewhat viral!" if 'j' in b else 0 for b in input('Enter names: ').split()]).strip('\n'))
+<pre><code class="language-python hljs" style="white-space: pre-wrap;"> print((lambda a: '\n'.join([i for i in a if i]) + '\nUltra Viral names: ' + str(len([i for i in a if not i])))([f"The '{b}' will go nowhere, the dance already exists!" if b in ['ballet', 'tap', 'jazz', 'belly', 'contemporary', 'ballroom', 'salsa', 'step', 'swing', 'irish', 'modern', 'shuffle', 'floss', 'twisting', 'macarena', 'interpretive', 'wobble', 'flick', 'stomp', 'tango'] else f"The '{b}' will go not viral!" if len(b) == 8 else f"The '{b}' will go slightly viral!" if len(b) < 4 else  f"The '{b}' will go somewhat viral!" if 'j' in b else 0 for b in input('Enter names: ').split()]).strip('\n'))
 </code></pre>
 
 Yes, this code is a mockery of the "Zen of Python", but it is for science. The main functionality of the above code is defined in the largest list comprehension. It defines a list of names, and returns how viral the list will go based on a number of fairly random conditional statements. The difficulty comes as the problem requires you to count the number of names that do not match any of the criteria. I ended up solving this by returning a 0 in the list comprehension when no conditions are met, and then counting the number of 0s in the list. The code <code style="language-python hljs">'\n'.join([i for i in a if i])</code> removes all the 0s from the list (variable a) and formats it into a string. The code <code style="language-python hljs">str(len([i for i in a if not i])))</code> counts all the 0s in the list and formats the int as a string. Finally, I had to add a <code style="language-python hljs">.strip('\n')</code> at the end, as when there are no strings in the list comprehension, <code style="language-python hljs">'\n'.join([])</code> is still '\n', meaning a pointless gap was being created, which then had to be removed. This code could be improved using the walrus (:=) operator to count ultra viral names while returning something (as += cannot), however it was introduced in Python 3.8, and Grok uses version 3.7.
