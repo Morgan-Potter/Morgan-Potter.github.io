@@ -31,6 +31,9 @@ author:
     - label: 'GitHub'
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Morgan-Potter"
+    - label: 'LinkedIn'
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/morgan-potter-740481252/"
     - label: 'Email'
       icon: "fas fa-fw fa-envelope"
       url: "mailto:morganpotter005@gmail.com"
@@ -47,6 +50,9 @@ include:
   - _include
 
 search: true
+
+owner:
+  google_verify: AF5ROVNCfawrGrUydEUq6YUhsGvaunvutUtuytPEwpE
 
 defaults:
   # _posts
