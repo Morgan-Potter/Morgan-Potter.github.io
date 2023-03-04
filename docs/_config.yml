@@ -51,8 +51,9 @@ include:
 
 search: true
 
-owner:
-  google_verify: AF5ROVNCfawrGrUydEUq6YUhsGvaunvutUtuytPEwpE
+google_verify: AF5ROVNCfawrGrUydEUq6YUhsGvaunvutUtuytPEwpE
+
+mathjax: true
 
 defaults:
   # _posts
