@@ -44,7 +44,7 @@ g & h & i
 Consider A to be the image with pixel brightness values denoted by A(x,y). Also consider x, y to correspond to the x and y position of the current pixel. In this case the x and y gradient for any pixel is given by the below formula
 
 \\[
-g_x = \begin[bmatrix]
+g_x = \begin{bmatrix}
 1 & 0 & -1 \\
 2 & 0 & -2 \\
 1 & 0 & -1
@@ -57,7 +57,7 @@ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1)
 = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \\]
 \\[
-g_y = \begin[bmatrix]
+g_y = \begin{bmatrix}
 1 & 2 & 1 \\
 0 & 0 & 0 \\
 -1 & -2 & -1
@@ -72,8 +72,7 @@ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1)
 
 The new image can be made iteratively with the below python code.
 
-<pre><code class="language-python hljs" style="white-space: pre-wrap;">
-img = ...
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">img = ...
 # Compute the gradient in x and y direction using Sobel filters
 # Image formatted (y,x)
 gx = []
@@ -97,7 +96,39 @@ The next step is calculating the structure tensor for each pixel of the filtered
 \mathbf{M} = \begin{bmatrix} \sum_{(x,y)\in W}I_{x}^{2} & \sum_{(x,y)\in W}I_{y} \\ \sum_{(x,y)\in W}I_{x}I_{y} & \sum_{(x,y)\in W}I_{y}^{2} \end{bmatrix}
 \\]
 
-Yes I know it looks scary but when you break it down it is not that bad. The variable w reperesents the window of the image being captured 
+Yes I know it looks scary but when you break it down it is not that bad. The variable W reperesents the window of the image being captured so `(x,y) ∈ W` reperesents every pixel within that window. The summation symbol is essentially a for loop - it is saying for every pixel in the image sum a function of (x,y). In the case of the structure tensor, the function uses the partial derivative of the image with respect to x or y (Ix or Iy). This was approximated previously with the Sobel filter. So the code essentially involves looping over the Sobel filtered image, and creating a matrix on both images based only on the Sobel filtered brightness values. The python code below implements this.
 
+<pre><code class="language-python hljs" style="white-space: pre-wrap;">A = []
+for i in range(img.shape[0]-1):
+    row_A = []
+    for j in range(img.shape[1]-1):
+        # Calculate the elements of the structure tensor
+        IxIx = gx[i][j]**2
+        IyIy = gy[i][j]**2
+        IxIy = gx[i][j] * gy[i][j]
+        row_A.append([IxIx, IxIy, IxIy, IyIy])
+    A.append(row_A)
+</code></pre>
 
-The value for the gradient needed is called a partial derivative, which in this context essentially means finding the derivative of a specific window (arbitrary size) of pixels within the image. This derivative can be approximated by using a number of methods, however the method I have chosen uses a 3x3 matrix 
+From this matrix, the corner response function can finally be executed. The corner response function takes the structure tensor and returns a value depicting the likelihood that the pixel is a corner. The formula for the corner response function can be seen below.
+
+\\[
+R = \operatorname{det}(M) - k(\operatorname{trace}(M))^2
+\\]
+
+Det or the determinant of a 2x2 matrix is found by subtracting the product of the top right to bottom left diagonal from the product of the top left to bottom right diagonal. The trace of a matrix is the sum of the top left to bottom right diagonal. Once the corner response function has been computed, a generally arbitrary threshold can be applied to filter pixels with a low certainty of being a corner. The code for the corner response function and threshold can be found below.
+
+<pre><code class="language-python hljs" style="white-space: pre-wrap;"># Compute the determinant and trace of the structure tensor
+threshold = ...
+corners = []
+for i in range(img.shape[0]-1):
+    for j in range(img.shape[1]-1):
+        # Calculate the determinant and trace of the structure tensor
+        det = A[i][j][0]*A[i][j][3] - A[i][j][1]*A[i][j][2]
+        trace = A[i][j][0] + A[i][j][3]
+        response = det - 0.04 * trace**2 # Use the Harris corner response function
+        if response > threshold:
+            corners.append((response, (j,i)))
+</code></pre>
+
+These corners can then be compared across the two images with a threshold for how close the response function must be to determine if the same corner is in both images. 
