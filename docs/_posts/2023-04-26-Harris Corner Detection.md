@@ -53,7 +53,7 @@ g_x = \begin{bmatrix}
 A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\
 A(x-1,y) & A(x,y) & A(x+1,y) \\\
 A(x-1,y-1) & A(x,y-1) & A(x+1,y-1)
-\end{bmatrix} 
+\end{bmatrix} \\\
 = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \\]
 \\[
@@ -66,7 +66,7 @@ g_y = \begin{bmatrix}
 A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\
 A(x-1,y) & A(x,y) & A(x+1,y) \\\
 A(x-1,y-1) & A(x,y-1) & A(x+1,y-1)
-\end{bmatrix} 
+\end{bmatrix} \\\
 = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \\]
 
