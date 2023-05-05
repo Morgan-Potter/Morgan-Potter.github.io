@@ -28,14 +28,14 @@ This gradient is calculated by convolving a preset 3x3 matrix called a kernel, a
 
 \\[
 \begin{bmatrix}
-1 & 0 & -1 \\
-2 & 0 & -2 \\
+1 & 0 & -1 \\\
+2 & 0 & -2 \\\
 1 & 0 & -1
 \end{bmatrix}
 \ast
 \begin{bmatrix}
-a & b & c \\
-d & e & f \\
+a & b & c \\\
+d & e & f \\\
 g & h & i
 \end{bmatrix} 
 = (-a + c - 2d + 2f - g + i)
@@ -45,26 +45,26 @@ Consider A to be the image with pixel brightness values denoted by A(x,y). Also 
 
 \\[
 g_x = \begin{bmatrix}
-1 & 0 & -1 \\
-2 & 0 & -2 \\
+1 & 0 & -1 \\\
+2 & 0 & -2 \\\
 1 & 0 & -1
 \end{bmatrix}
 \begin{bmatrix}
-A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\
-A(x-1,y) & A(x,y) & A(x+1,y) \\
+A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\
+A(x-1,y) & A(x,y) & A(x+1,y) \\\
 A(x-1,y-1) & A(x,y-1) & A(x+1,y-1)
 \end{bmatrix} 
 = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \\]
 \\[
 g_y = \begin{bmatrix}
-1 & 2 & 1 \\
-0 & 0 & 0 \\
+1 & 2 & 1 \\\
+0 & 0 & 0 \\\
 -1 & -2 & -1
 \end{bmatrix}
 \begin{bmatrix}
-A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\
-A(x-1,y) & A(x,y) & A(x+1,y) \\
+A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\
+A(x-1,y) & A(x,y) & A(x+1,y) \\\
 A(x-1,y-1) & A(x,y-1) & A(x+1,y-1)
 \end{bmatrix} 
 = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
@@ -93,7 +93,7 @@ for i in range(1, img.shape[0]-1):
 The next step is calculating the structure tensor for each pixel of the filtered image. The structure tensor is a fairly complex mathematical concept, and I have not had the time to fully understand everything it does. The basic concept of a structure tensor is that it is essentially one step deeper than a regular gradient, sort of like a second derivative. Instead of providing an average value for the gradient across the entire window with respect to the x and y directions, it describes the distribution of the gradient within said window. Say for example there was a gradient value of 4 across the x axis, this value could be drastically affected by outliers as it is a mean and therefore the corner would be difficult to find within the window. When the structure tensor is made, it is possible to find these outliers to get a better idea of where the corner is located. The formula for this can be found below.
 
 \\[
-\mathbf{M} = \begin{bmatrix} \sum_{(x,y)\in W}I_{x}^{2} & \sum_{(x,y)\in W}I_{y} \\ \sum_{(x,y)\in W}I_{x}I_{y} & \sum_{(x,y)\in W}I_{y}^{2} \end{bmatrix}
+\mathbf{M} = \begin{bmatrix} \sum_{(x,y)\in W}I_{x}^{2} & \sum_{(x,y)\in W}I_{y} \\\ \sum_{(x,y)\in W}I_{x}I_{y} & \sum_{(x,y)\in W}I_{y}^{2} \end{bmatrix}
 \\]
 
 Yes I know it looks scary but when you break it down it is not that bad. The variable W reperesents the window of the image being captured so `(x,y) ∈ W` reperesents every pixel within that window. The summation symbol is essentially a for loop - it is saying for every pixel in the image sum a function of (x,y). In the case of the structure tensor, the function uses the partial derivative of the image with respect to x or y (Ix or Iy). This was approximated previously with the Sobel filter. So the code essentially involves looping over the Sobel filtered image, and creating a matrix on both images based only on the Sobel filtered brightness values. The python code below implements this.
