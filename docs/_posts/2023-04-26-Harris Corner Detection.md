@@ -33,10 +33,14 @@ This gradient is calculated by convolving a preset 3x3 matrix called a kernel, a
 Consider A to be the image with pixel brightness values denoted by A(x,y). Also consider x, y to correspond to the x and y position of the current pixel. In this case the x and y gradient for any pixel is given by the below formula
 
 \\[
-g_x = \begin{bmatrix} 1 & 0 & -1 \\\ 2 & 0 & -2 \\\ 1 & 0 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \newline = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
+\begin{aligned}
+g_x = \begin{bmatrix} 1 & 0 & -1 \\\ 2 & 0 & -2 \\\ 1 & 0 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \\ = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
+\end{aligned}
 \\]
 \\[
-g_y = \begin{bmatrix} 1 & 2 & 1 \\\ 0 & 0 & 0 \\\ -1 & -2 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \newline = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
+\begin{aligned}
+g_y = \begin{bmatrix} 1 & 2 & 1 \\\ 0 & 0 & 0 \\\ -1 & -2 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \\\ = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
+\end{aligned}
 \\]
 
 The new image can be made iteratively with the below python code.
