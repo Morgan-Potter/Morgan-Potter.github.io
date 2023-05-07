@@ -27,27 +27,16 @@ This has the effect of highlighting the edges of the image, as the pixels on an 
 This gradient is calculated by convolving a preset 3x3 matrix called a kernel, and the window i.e. 3x3 matrix of pixels around the current pixel (as shown in the above animation). Convolution is a specific type of matrix multiplication which has you rotate the matrix 180 degrees, and then sum the product of each corresponding number. An example of a 3x3 convolution can be seen below. Additionally, the below image uses the same kernel that is used to find the gradient of the window in the x direction.
 
 \\[
-\begin{bmatrix}
-1 & 0 & -1 \\\
-2 & 0 & -2 \\\
-1 & 0 & -1
-\end{bmatrix}
-\ast
-\begin{bmatrix}
-a & b & c \\\
-d & e & f \\\
-g & h & i
-\end{bmatrix} 
-= (-a + c - 2d + 2f - g + i)
+\begin{bmatrix} 1 & 0 & -1 \\\ 2 & 0 & -2 \\\ 1 & 0 & -1 \end{bmatrix} \ast \begin{bmatrix} a & b & c \\\ d & e & f \\\ g & h & i \end{bmatrix} = (-a + c - 2d + 2f - g + i)
 \\]
 
 Consider A to be the image with pixel brightness values denoted by A(x,y). Also consider x, y to correspond to the x and y position of the current pixel. In this case the x and y gradient for any pixel is given by the below formula
 
 \\[
-g_x = \begin{bmatrix} 1 & 0 & -1 \\\ 2 & 0 & -2 \\\ 1 & 0 & -1 \end{bmatrix} \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
+g_x = \begin{bmatrix} 1 & 0 & -1 \\\ 2 & 0 & -2 \\\ 1 & 0 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \\ = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \\]
 \\[
-g_y = \begin{bmatrix} 1 & 2 & 1 \\\ 0 & 0 & 0 \\\ -1 & -2 & -1 \end{bmatrix} * \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
+g_y = \begin{bmatrix} 1 & 2 & 1 \\\ 0 & 0 & 0 \\\ -1 & -2 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \\ = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \\]
 
 The new image can be made iteratively with the below python code.
