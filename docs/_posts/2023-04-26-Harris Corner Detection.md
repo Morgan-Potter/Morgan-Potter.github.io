@@ -37,6 +37,7 @@ Consider A to be the image with pixel brightness values denoted by A(x,y). Also 
 g_x = \begin{bmatrix} 1 & 0 & -1 \\\ 2 & 0 & -2 \\\ 1 & 0 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \\\ = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) \\\ + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
 \end{gathered}
 \\]
+
 \\[
 \begin{gathered}
 g_y = \begin{bmatrix} 1 & 2 & 1 \\\ 0 & 0 & 0 \\\ -1 & -2 & -1 \end{bmatrix} \ast \begin{bmatrix} A(x-1,y+1) & A(x,y+1) & A(x+1,y+1) \\\ A(x-1,y) & A(x,y) & A(x+1,y) \\\ A(x-1,y-1) & A(x,y-1) & A(x+1,y-1) \end{bmatrix} \\\ = (-A(x-1,y+1) + A(x+1,y+1) - 2A(x-1,y) \\\ + 2A(x+1,y) - A(x-1,y-1) + A(x+1,y-1))
