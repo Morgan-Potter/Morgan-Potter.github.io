@@ -8,5 +8,5 @@ header:
 excerpt: Yeah but does your school have its own custom referencing generator?
 taxonomy: ref-gen
 author_profile: true
-permalink: /tags/winston/
+permalink: /tags/bas-referencing-generator/
 ---
