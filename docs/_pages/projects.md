@@ -6,7 +6,7 @@ feature_row:
   - image_path: assets/projects.jpg
     title: W.I.N.S.T.O.N
     excerpt: Check out my latest project Winston the robot dog!
-    url: /winston/
+    url: /tags/winston/
     btn_label: "Learn More"
     btn_class: "btn--primary"
 ---
