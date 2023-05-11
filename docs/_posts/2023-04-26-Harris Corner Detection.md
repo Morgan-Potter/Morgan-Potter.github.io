@@ -1,6 +1,7 @@
 ---
 tags: 
     - "Robotics / Mechatronics"
+    - "Winston"
 excerpt: "So reversing camera distortion is cool, but how do I know what points to triangulate?"
 header:
     overlay_image: "/assets/NCSS-Challenge-2023/cover.png"
@@ -8,9 +9,15 @@ header:
     overlay_filter: "0.5"
 ---
 
+#### What have I been doing
+
 This week I was officially given the task sheet for the project presentation in which I will be creating a stereo vision system. Considering this, I should probably stop procrastinating (as I did over the holidays), and finally get to finding similar objects between different images. There are many ways of finding these similar objects, however a popular method has been to find the corners of objects, as corners are typically easy to see for computers. The iconic algorithm for doing this is Harris Corner Detection, which works but is not the most optimized method. I am struggling to decide one whether to do Harris Corner Detection which is well documented and would be easy to implement or a more effective object definition algorithm. Using a corner detection algorithm presents a distinct advantage over some other form of similar point detection, as it is easier to create 3d geometry from corners than more arbitrary similar points.
 
+#### Harris corner detection
+
 Harris corner detection is fairly simple in concept. You essentially compute the brightness gradient of a small section of a black and white image. If this gradient is large enough in multiple directions (i.e. there is a drastic change in brightness), there is most likely a corner there. This operation is peformed iteratively across the entire image, while the corners are recorded as x, y pixel positions. The corner response function also returns a value that describes the likelihood of the pixel being a corner, which can be used to match similar corners across the two captured images.
+
+#### Sobel Filter
 
 The first step in harris corner detection is technically not required, but it greatly increases accuracy. A Sobel filter is applied to the image. This essentially is an estimate of the brightness gradient within a specific window translated into a new image. So each pixel of the Sobel filtered image is the gradient of its surrounding 8 pixels, which is visualized well in the below animation.
 
@@ -64,6 +71,8 @@ for i in range(1, img.shape[0]-1):
     gy.append(row_gy)
 </code></pre>
 
+#### Structure tensor
+
 The next step is calculating the structure tensor for each pixel of the filtered image. The structure tensor is a fairly complex mathematical concept, and I have not had the time to fully understand everything it does. The basic concept of a structure tensor is that it is essentially one step deeper than a regular gradient, sort of like a second derivative. Instead of providing an average value for the gradient across the entire window with respect to the x and y directions, it describes the distribution of the gradient within said window. Say for example there was a gradient value of 4 across the x axis, this value could be drastically affected by outliers as it is a mean and therefore the corner would be difficult to find within the window. When the structure tensor is made, it is possible to find these outliers to get a better idea of where the corner is located. The formula for this can be found below.
 
 \\[
@@ -83,6 +92,8 @@ for i in range(img.shape[0]-1):
         row_A.append([IxIx, IxIy, IxIy, IyIy])
     A.append(row_A)
 </code></pre>
+
+#### Corner response function
 
 From this matrix, the corner response function can finally be executed. The corner response function takes the structure tensor and returns a value depicting the likelihood that the pixel is a corner. The formula for the corner response function can be seen below.
 
@@ -106,3 +117,11 @@ for i in range(img.shape[0]-1):
 </code></pre>
 
 These corners can then be compared across the two images with a threshold for how close the response function must be to determine if the same corner is in both images. 
+
+#### Refleciton
+
+##### Why was this blog post so long?
+
+I made this blog post over the word limit because it was such a huge topic that I had to explore and I wanted to create a write up that I could use to remeber harris corner detection in the future. The last time I did a project on a complex algorithm, it was perlin noise and I did not have a good explanation of it in the assignment even though I understood the algorithm to an advanced level. I focused on the implementation and not the report, which was my downfall in terms of marks. Writing this post gives me a strong foundation for the explanation I will have to make in my report, and in my presentation so I will continue to write similar reflections in future, regardless of how long they are.
+
+##### 

@@ -1,6 +1,7 @@
 ---
 tags: 
     - "Robotics / Mechatronics"
+    - "Winston"
 excerpt: "Overcoming camera distortion in computer stereo vision systems."
 header:
     overlay_image: "/assets/Distortion/cover.png"
