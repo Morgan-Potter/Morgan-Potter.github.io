@@ -1,6 +1,7 @@
 ---
 tags: 
     - "Robotics / Mechatronics"
+    - "ref-gen"
 ---
 This week I completed my mechatronics report and in doing so, created a referencing tool for future assignments. My mechatronics draft feedback seemed to be good across the board. All I needed to do was the history section, re-structuring, proofreading and referencing. I found writing the history section more difficult than the other two, despite accounting for less marks. I assume it was due to the lower amount of information on the topic, requiring me to draw more difficult connections between information. Re-structuring and proofreading was straightforward, re-structuring being the harder of the two. Doing this at the draft stage is normal for me, so it did not take long. 
 

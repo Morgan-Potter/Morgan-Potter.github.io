@@ -118,10 +118,8 @@ for i in range(img.shape[0]-1):
 
 These corners can then be compared across the two images with a threshold for how close the response function must be to determine if the same corner is in both images. 
 
-#### Refleciton
+#### Reflection
 
 ##### Why was this blog post so long?
 
 I made this blog post over the word limit because it was such a huge topic that I had to explore and I wanted to create a write up that I could use to remeber harris corner detection in the future. The last time I did a project on a complex algorithm, it was perlin noise and I did not have a good explanation of it in the assignment even though I understood the algorithm to an advanced level. I focused on the implementation and not the report, which was my downfall in terms of marks. Writing this post gives me a strong foundation for the explanation I will have to make in my report, and in my presentation so I will continue to write similar reflections in future, regardless of how long they are.
-
-##### 
