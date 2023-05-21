@@ -41,8 +41,6 @@ Essentially each parent (e.g. sections, paragraph, textrun) has a multitude of a
 </li>
 </ol>
 
-A project like this would look great on a resume or university application, and is a service to peers, especially those struggling with referencing. The question is whether it is moral to use this in a university application. If you give a service to others for the sake of giving, then it should not give you personal gain, however this is not the case for me. If I use this for a university application, it is not immoral, however it means that the website is no longer an act of charity. The question is am I ok with doing that, which I am. I see the benefits far outweigh the ego boost I will get from being charitable, and the service will still be the same.
-
 <h3>Reflection</h3>
 
 <h4>Where did you meet success, and who might benefit most from what you’ve learned along the way?</h4>
