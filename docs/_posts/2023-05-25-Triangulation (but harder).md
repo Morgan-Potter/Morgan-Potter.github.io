@@ -4,7 +4,6 @@ tags:
     - "Winston"
 excerpt: "A story of how research makes seemingly simple algorithms annoyingly complex."
 header:
-    overlay_image: "/assets/NCSS-Challenge-2023/cover.png"
     overlay_color: "#000"
     overlay_filter: "0.5"
 ---

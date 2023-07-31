@@ -4,7 +4,6 @@ tags:
     - "Winston"
 excerpt: "Maybe it's time to slow down and think about how to approach stereo vision for a robotic dog."
 header:
-    overlay_image: "/assets/NCSS-Challenge-2023/cover.png"
     overlay_color: "#000"
     overlay_filter: "0.5"
 ---

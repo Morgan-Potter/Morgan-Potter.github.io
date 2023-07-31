@@ -4,7 +4,7 @@ tags:
     - "Winston"
 excerpt: "How I created the housing for Winston's eyes."
 header:
-    overlay_image: "/assets/NCSS-Challenge-2023/cover.png"
+    overlay_image: "/assets/Stereo-Camera-Housing/cover.png"
     overlay_color: "#000"
     overlay_filter: "0.5"
 ---

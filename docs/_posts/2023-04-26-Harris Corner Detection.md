@@ -4,7 +4,6 @@ tags:
     - "Winston"
 excerpt: "So reversing camera distortion is cool, but how do I know what points to triangulate?"
 header:
-    overlay_image: "/assets/NCSS-Challenge-2023/cover.png"
     overlay_color: "#000"
     overlay_filter: "0.5"
 ---
