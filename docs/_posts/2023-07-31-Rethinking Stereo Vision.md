@@ -11,7 +11,7 @@ header:
 
 #### What have I been doing?
 
-As previously discussed on this blog, I am in the process in creating the computer vision system for W.I.N.S.T.O.N the robot dog. Quite naively, I previously approached this by looking through various wikipedia articles and randomly choosing an approach to map Winston's environment. My research into this approach can be read on this blog. The approach I happened upon was not suited to this robotic dog application for a few reasons. Over the past week I have been working on fixing these issues.
+As previously discussed on this blog, I am in the process in creating the computer vision system for W.I.N.S.T.O.N the robot dog. Quite naively, I previously approached this by looking through various Wikipedia articles and randomly choosing an approach to map Winston's environment. My research into this approach can be read on this blog. The approach I happened upon was not suited to this robotic dog application for a few reasons. Over the past week I have been working on fixing these issues.
 
 #### Sparse v.s. Dense matching
 
@@ -33,10 +33,10 @@ The base of the red triangle (\\(T_1\\)) is defined as:
 
 \\[T_1 = T + x_r - x_l\\]
 
-This was hard for me to grasp conceptually, so I expanded the equation. \\(T_1\\) is equivalent to T - the distance between \\(O_l\\) and \\(x_l\\) - the distance between \\(O_r\\) and \\(x_r\\). If both images are n pixels wide:
+This was hard for me to grasp conceptually, so I expanded the equation. If you look at the diagram \\(T_1\\) is the same as T minus the left and right distances between the optical center, and the image point, therefore if both images are n pixels wide:
 
 \\[
-\displaylines{T_1 = T - (x_l - \frac{n}{2}) - (\frac{n}{2} - x_r) \\\ = T - x_l + \frac{n}{2} - \frac{n}{2} + x_r = T + x_r - x_l}
+\displaylines{T_1 = T - (x_l - \frac{n}{2}) - (\frac{n}{2} - x_r) \\\ = T - x_l + \frac{n}{2} - \frac{n}{2} + x_r \\\ = T + x_r - x_l}
 \\]
 
 The height of the red triangle ((\\z_1\\)) is defined as:
@@ -58,7 +58,3 @@ The issue with this formula is that the units do not match up. The baseline (\\(
 ##### Am I staying on track to complete Winston?
 
 This week has been a little difficult in terms of working on Winston. I was meant to submit project definition documents for both robotics and data science last week on Monday, but I did not have the time due to me being away from school and hence only finding out about the documents the Sunday night before they were due. This put me into a bit of a slump when it comes to working on Winston, as whenever I had the chance to do some work I had to do the project definition documents. Even after a week has passed, I still have not done a significant amount of work on them as it is quite monotonous work. I would rather be learning stuff - I will make a big push to finish them tomorrow, so I can continue creating Winston's vision systems.
-
-##### Do you have any strategies for this semester to not get overwhelmed?
-
-Yes. My ATAR estimate was not at the ~96 I need to get into UNSW co-op, so I no longer have the option to get overwhelmed and get exemptions from assessment items. I think this is a good thing as it locks me into the stress. Over the past year I have been trying to find how to make myself work hard again, and as bad as it sounds - stress is the best motivator, so having a way to relieve it without doing the work is counter-productive. Granted, its still not good to get overwhelmed, so my strategy is to only allow myself to be stressed about things happening in the day, not the week or month. This also means I can feel good about what I have done in the day, and allow myself to have a guilt-free break once I finish my work. I suppose I will see how it goes and provide an update next week.
