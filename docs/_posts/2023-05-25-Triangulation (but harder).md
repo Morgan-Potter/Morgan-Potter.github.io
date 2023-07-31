@@ -32,7 +32,3 @@ The rotation matrix can be calculated fairly easily by finding the angles betwee
 -\\sin(\\theta_y) & \\sin(\\theta_x)\\cos(\\theta_y) & \\cos(\\theta_x)\\cos(\\theta_y)
 \\end{bmatrix}\\]
 
-
-
-This is also known as the null point, as it is where distortion is undefined. Smh I just read the cv2 codebase and they actually calculate the principle point as the center of the image sensor they are lacking (wait are they or are they taking the centerpoint of the undistorted image?//??????).
-
