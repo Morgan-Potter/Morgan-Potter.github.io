@@ -36,7 +36,7 @@ The base of the red triangle (\\(T_1\\)) is defined as:
 This was hard for me to grasp conceptually, so I expanded the equation. \\(T_1\\) is equivalent to T - the distance between \\(O_l\\) and \\(x_l\\) - the distance between \\(O_r\\) and \\(x_r\\). If both images are n pixels wide:
 
 \\[
-T_1 = T - (x_l - \frac{n}{2}) - (\frac{n}{2} - x_r) \\\ = T - x_l + \frac{n}{2} - \frac{n}{2} + x_r = T + x_r - x_l
+\displaylines{T_1 = T - (x_l - \frac{n}{2}) - (\frac{n}{2} - x_r) \\\ = T - x_l + \frac{n}{2} - \frac{n}{2} + x_r = T + x_r - x_l}
 \\]
 
 The height of the red triangle ((\\z_1\\)) is defined as:
@@ -46,7 +46,7 @@ The height of the red triangle ((\\z_1\\)) is defined as:
 If two triangles are similar (these triangles are), the base to height ratio will be equal between both:
 
 \\[
-\frac{T}{Z} = \frac{T + x_r - x_l}{Z - f} \\\ \frac{T(Z-f)}{Z} = T + x_r - x_l \\\ T - \frac{Tf}{Z} = T + x_r + x_l \\\ -\frac{Tf}{Z} = x_r - x_l \\\ \frac{Tf}{Z} = x_l - x_r \\\ Z = \frac{Tf}{x_l - x_r}
+\displaylines{\frac{T}{Z} = \frac{T + x_r - x_l}{Z - f} \\\ \frac{T(Z-f)}{Z} = T + x_r - x_l \\\ T - \frac{Tf}{Z} = T + x_r + x_l \\\ -\frac{Tf}{Z} = x_r - x_l \\\ \frac{Tf}{Z} = x_l - x_r \\\ Z = \frac{Tf}{x_l - x_r}}
 \\]
 
 All variables in this new equation for Z can be found, meaning Z can be found.

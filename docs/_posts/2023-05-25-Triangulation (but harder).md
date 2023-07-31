@@ -29,8 +29,8 @@ The projection matrix is calculated from the camera matrix by adding information
 The rotation matrix can be calculated fairly easily by finding the angles between the real world axes and the camera axes, i.e. measure the cameras angle relative to the floor. This can also be done with gyroscope or similar rotational sensor by moving the sensor from the real world axes to being rotated to the camera axes, and measuring the difference. From these values \\((\\theta_x, \\theta_y, \\theta_z)\\) the rotation matrix can be computed.
 
 \\[R = \\begin{bmatrix}
-\\cos(\\theta_y)\\cos(\\theta_z) & -\\cos(\\theta_x)\\sin(\\theta_z) + \\sin(\\theta_x)\\sin(\\theta_y)\\cos(\\theta_z) & \\sin(\\theta_x)\\sin(\\theta_z) + \\cos(\\theta_x)\\sin(\\theta_y)\\cos(\\theta_z) \\\\
-\\cos(\\theta_y)\\sin(\\theta_z) & \\cos(\\theta_x)\\cos(\\theta_z) + \\sin(\\theta_x)\\sin(\\theta_y)\\sin(\\theta_z) & -\\sin(\\theta_x)\\cos(\\theta_z) + \\cos(\\theta_x)\\sin(\\theta_y)\\sin(\\theta_z) \\\\
+\\cos(\\theta_y)\\cos(\\theta_z) & -\\cos(\\theta_x)\\sin(\\theta_z) + \\sin(\\theta_x)\\sin(\\theta_y)\\cos(\\theta_z) & \\sin(\\theta_x)\\sin(\\theta_z) + \\cos(\\theta_x)\\sin(\\theta_y)\\cos(\\theta_z) \\\
+\\cos(\\theta_y)\\sin(\\theta_z) & \\cos(\\theta_x)\\cos(\\theta_z) + \\sin(\\theta_x)\\sin(\\theta_y)\\sin(\\theta_z) & -\\sin(\\theta_x)\\cos(\\theta_z) + \\cos(\\theta_x)\\sin(\\theta_y)\\sin(\\theta_z) \\\
 -\\sin(\\theta_y) & \\sin(\\theta_x)\\cos(\\theta_y) & \\cos(\\theta_x)\\cos(\\theta_y)
 \\end{bmatrix}\\]
 
