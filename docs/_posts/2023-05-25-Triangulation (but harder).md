@@ -13,7 +13,9 @@ Now that I have developed a solution to the [correspondence problem]({{site.url}
 
 To compute proper triangulation, you first have to calculate the intrinsic camera matrix, which is described in a [previous blog post]({{site.url}}/2023/02/13/Distortion.html). The method for finding this matrix using OpenCV is also detailed in that post. Using this matrix, an estimation of the projection matrix is calculated by first finding the inverse of the intrinsic camera matrix (K). Note this must be done for both cameras in the stereo configuration.
 
-\\[ K = \begin{bmatrix} f_x & 0 & c_x \\\ 0 & f_y & c_y \\\ 0 & 0 & 1 \end{bmatrix}\\]
+\\[
+K = \begin{bmatrix} f_x & 0 & c_x \\\ 0 & f_y & c_y \\\ 0 & 0 & 1 \end{bmatrix}
+\\]
 
 Where \\(f_x\\) and \\(f_y\\) are abstractions of the camera focal length given in mm (F), and the number of mm/pixel in the x and y resolutions respectively (\\(s_x\\) and \\(s_y\\)). It represents the focal length in terms of pixels, instead of millimeters.
 
