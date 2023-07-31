@@ -49,6 +49,7 @@ defaults:
       related: true
       show_date: true
       classes: wide
+      excerpt: ""
       header:
         overlay_image: "/assets/default-image.jpg"
         overlay_color: "#000"
