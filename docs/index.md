@@ -8,9 +8,9 @@ header:
     overlay_filter: "0.5"
 excerpt: "Hello internet surfer! Check out my stuff below or in the navbar above."
 feature_row:
-  - image_path: assets/projects.jpg
+  - image_path: /assets/Projects/projects.jpg
     title: Projects
-    excerpt: Visit the Projects page to see some of the cool things I have done.
+    excerpt: Visit the projects page to see some of the cool things I have done.
     url: /projects/
     btn_label: "Learn More"
     btn_class: "btn--primary"
