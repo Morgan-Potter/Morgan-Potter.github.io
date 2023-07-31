@@ -27,11 +27,12 @@ The other requirements of the design are more simple.
 Due to the rigid design requirements, the design of the camera housing cannot differ much from a functionality standpoint. The one comparison I had to make involved the mounting of the cameras. As pictured in the below image, the cameras seem to have 4 mounting holes, presumably made for bolts.
 
 ![DFRobot USB Camera]({{site.url}}/assets/Stereo-Camera-Housing/dfrobot_camera.jpg){: .align-center style="width: 50%;"}
-[DFRobot, n.d.](https://www.dfrobot.com/product-2089.html){: .text-center}
+[DFRobot, n.d.](https://www.dfrobot.com/product-2089.html)
+{: .text-center}
 
 Unfortunately, these holes cannot be used as there are electronic components on the backside of the board that would be tensioned against if the camera were to be bolted in. Realising that this idea wouldnt work, I thought of a different solution. This was to create a hole that the PCB could slot into with a small opening in the front for the camera lens. An additional component would slot into the hole and be bolted in place, sandwiching the camera PCB, so it cannot move. See the below for my original sketches of this design (what an artist):
 
-![Early Sketches]({{site.url}}/assets/Stereo-Camera-Housing/early_sketches.jpg){: .align-center style="width: 100%;"}
+![Early Sketches]({{site.url}}/assets/Stereo-Camera-Housing/early_sketches.jpg){: .align-center style="width: 70%;"}
 
 Specifically note the bottom row of sketches, as they detail the hole for the camera PCB, and mounting holes for bolts. This is the design I went with in the end.
 
@@ -39,7 +40,7 @@ Specifically note the bottom row of sketches, as they detail the hole for the ca
 
 My final model can be seen below:
 
-![Final Stereo Camera Housing Model GIF]({{site.url}}/assets/Stereo-Camera-Housing/camera_housing_animation.gif)
+![Final Stereo Camera Housing Model GIF]({{site.url}}/assets/Stereo-Camera-Housing/camera_housing_animation.gif){: .align-center}
 
 The modelling was fairly straight forward, however I did run into some issues in the first printed prototype. Due to the size of the filament being extruded in FDM 3d-printing, the dimensions specified in modelling are usually 0.25 mm larger for each side. This means when modelling components being 3d-printed, you need to compensate. For example, a circular hole would need to be 0.5 mm larger in diameter to compensate. I did this correctly in the first prototype i.e. everything fit together, but the bolts would not tap into the plastic because it was too wide. This meant the mounting was loose, and not adequate. In the second prototype I reversed the compensation, and the result taps much better - but I think the holes could be slightly smaller still. The only other change I made was to make the cable opening smaller for aesthetic purposes.
 
@@ -47,10 +48,21 @@ During modelling, I also decided to make the back cover that sandwiches the came
 
 #### Final product (for now)
 
-The final version can be seen below.
-| Front View  | Back View |
-|   :-----:   |  :-----:  |
-| ![Winston Eyes Front]({{site.url}}/assets/Stereo-Camera-Housing/front.jpg) | ![Winston Eyes Back]({{site.url}}/assets/Stereo-Camera-Housing/back.jpg) |
+The final printed version can be seen below.
+<table style="width: 100%; text-align: center;">
+<tr>
+<td>
+<b>Front View</b>
+</td>
+<td>
+<b>Back View</b>
+</td>
+</tr>
+<tr>
+<td><img src="https://morgan-potter.github.io/assets/Stereo-Camera-Housing/front.jpg"></td>
+<td><img src="https://morgan-potter.github.io/assets/Stereo-Camera-Housing/back.jpg"></td>
+</tr>
+</table>
 
 Note that this prototype has no way to mount onto the chassis of Winston, which is something I will add when my peers are ready. 
 
