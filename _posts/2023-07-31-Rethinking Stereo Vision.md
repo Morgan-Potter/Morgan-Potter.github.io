@@ -32,13 +32,13 @@ The base of the red triangle (\\(T_1\\)) is defined as:
 
 \\[T_1 = T + x_r - x_l\\]
 
-This was hard for me to grasp conceptually, so I expanded the equation. If you look at the diagram \\(T_1\\) is the same as T minus the left and right distances between the optical center, and the image point, therefore if both images are n pixels wide:
+This was hard for me to grasp conceptually, so I expanded the equation. If you look at the diagram \\(T_1\\) is the same as \\(T\\) minus the left and right distances between the optical center, and the image point, therefore if both images are \\(n\\) pixels wide:
 
 \\[
 \displaylines{T_1 = T - (x_l - \frac{n}{2}) - (\frac{n}{2} - x_r) \\\ = T - x_l + \frac{n}{2} - \frac{n}{2} + x_r \\\ = T + x_r - x_l}
 \\]
 
-The height of the red triangle ((\\z_1\\)) is defined as:
+The height of the red triangle (\\(z_1\\)) is defined as:
 
 \\[z_1 = Z - f\\]
 
@@ -50,7 +50,7 @@ If two triangles are similar (these triangles are), the base to height ratio wil
 
 All variables in this new equation for Z can be found, meaning Z can be found.
 
-The issue with this formula is that the units do not match up. The baseline (\\(T\\)), and focal distance \\(f\\) is measured as real world distance, not camera pixels. This means to use this formula, a conversion has to be made. This is done by determining the physical size of the camera sensor, and using that to determine the physical distance between pixels which can be used to convert pixels to distance. I have previously discussed distance between pixels as the distance between real world objects represented by pixels, but in this case I am referring to the actual distance between pixels on the surface of the image sensor.
+The issue with this formula is that the units do not match up. The baseline (\\(T\\)), and focal distance (\\(f\\)) is measured as real world distance, not camera pixels. This means to use this formula, a conversion has to be made. This is done by determining the physical size of the camera sensor, and using that to determine the physical distance between pixels which can be used to convert pixels to distance. I have previously discussed distance between pixels as the distance between real world objects represented by pixels, but in this case I am referring to the actual distance between pixels on the surface of the image sensor.
 
 #### Reflection
 
