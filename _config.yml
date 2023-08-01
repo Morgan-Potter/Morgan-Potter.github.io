@@ -48,7 +48,6 @@ defaults:
       share: true
       related: true
       show_date: true
-      classes: wide
       excerpt: ""
       toc: true
       toc_sticky: true
