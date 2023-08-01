@@ -50,6 +50,7 @@ defaults:
       show_date: true
       classes: wide
       excerpt: ""
+      toc: true
       toc_sticky: true
       header:
         overlay_image: "/assets/default_image.jpg"

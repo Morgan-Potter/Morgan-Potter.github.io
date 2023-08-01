@@ -64,7 +64,7 @@ The timeframe for this project is: 6/08/23
 
 #### Constraints
 
-| **Constraint** | **Impact on Project Success**** (High/Med/Low)** |
+| **Constraint** | **Impact on Project Success (High/Med/Low)** |
 | --- | --- |
 | Use of the little computing power available on the Raspberry Pi 4b+ | High |
 | Time constraints – project and presentation must be complete by the 18th of August at the absolute latest. | High |
@@ -111,11 +111,9 @@ Timeframe estimate: Two weeks (5 days remaining)
 | **Deliverable** | **Duration** | **Completion Date** | **Dependencies** |
 | --- | --- | --- | --- |
 | Stereo Camera Housing | 3 Days | End Week 1\* | CAD Model Completed.<br>Assembly is 3D-Printed. |
-| Camera Calibration | 1 Day | Mid Week 2\* | Calibration images taken.
- Camera matrix and distortion coefficients computed. |
-| Pixel correspondence algorithm | 1-2 Days | Mid Week 3 | Determine if image rectification is required.Block similarity metric chosen.
- Block matching algorithm chosen and implemented. |
-| Depth map created | 1-2 Days | Late Week 3 | Camera matrix used to convert pixels to distance on image sensor.Triangulation algorithm implemented. |
+| Camera Calibration | 1 Day | Mid Week 2\* | Calibration images taken.<br>Camera matrix and distortion coefficients computed. |
+| Pixel correspondence algorithm | 1-2 Days | Mid Week 3 | Determine if image rectification is required.<br>Block similarity metric chosen.<br>Block matching algorithm chosen and implemented. |
+| Depth map created | 1-2 Days | Late Week 3 | Camera matrix used to convert pixels to distance on image sensor.<br>Triangulation algorithm implemented. |
 | Real-time computation | 2 Days | End Week 3 | Implement multi-threading, and/or GPU acceleration. |
 
 \*Deliverable is already complete
