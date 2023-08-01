@@ -2,6 +2,7 @@
 tags:
     - "Robotics / Mechatronics"
     - "Winston"
+toc: true
 ---
 
 This blog post is the project definition document for Winston's computer vision systems. A project definition document is a school assessment item that defines the project I am doing for robotics this semester. Note that the template for this document was designed to be completed by a team, however our team divided work into sub-systems, so each of us are filling in separate documents. If you are interested, there is another [project definition document for Winston's navigation systems.]({{site.url}}/2023/08/01/Data-Science-Project-Definition-Document.html)
