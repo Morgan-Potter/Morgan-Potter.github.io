@@ -2,10 +2,9 @@
 tags:
     - "Robotics / Mechatronics"
     - "Winston"
-toc: true
 ---
 
-This blog post is the project definition document (PDD) for Winston's computer vision systems. A PDD is a school assessment item that defines the project I am doing for robotics this semester. If you are interested, there is another [project definition document for Winston's navigation systems.]({{site.url}}/2023/08/01/Data-Science-Project-Definition-Document.html)
+This blog post is the project definition document for Winston's computer vision systems. A project definition document is a school assessment item that defines the project I am doing for robotics this semester. Note that the template for this document was designed to be completed by a team, however our team divided work into sub-systems, so each of us are filling in separate documents. If you are interested, there is another [project definition document for Winston's navigation systems.]({{site.url}}/2023/08/01/Data-Science-Project-Definition-Document.html)
 
 #### Project Definition Information
 
@@ -29,7 +28,7 @@ The vision sub-system will give Winston the information to navigate to specific 
 
 | **Team Member** | **Capabilities** |
 | --- | --- |
-| Morgan Potter | Knowledge of Python and Fusion 360 Experience with Computer Vision, and 3D-Printing |
+| Morgan Potter | Knowledge of Python and Fusion 360.<br>Experience with Computer Vision, and 3D-Printing |
 
 #### Project Outcomes/Requirement Objectives
 
@@ -54,7 +53,7 @@ The vision sub-system will give Winston the information to navigate to specific 
 
 #### Time Objective
 
-The timeframe for this project is: 3/08/23
+The timeframe for this project is: 6/08/23
 
 #### Parties Involved
 
@@ -76,11 +75,11 @@ The timeframe for this project is: 3/08/23
 
 | **Skill Required** | **Resource with skill / capability** |
 | --- | --- |
-| Multi-threading / GPU acceleration | Asyncio and PyOpenCL Python libraries.PyCUDA if processing is offloaded to the server. |
+| Multi-threading / GPU acceleration | Asyncio and PyOpenCL Python libraries.<br>PyCUDA if processing is offloaded to the server. |
 | Time management strategies | Physical Calendar. |
-| Good Programming Habits | The Zen of Python. Me. |
+| Good Programming Habits | The Zen of Python.<br>Me. |
 | Learning computer vision algorithms | Me, assisted by Wikipedia, university lectures, textbooks, journal articles etc. |
-| Design and manufacturing skills for the camera housing | Pen and Paper.Fusion 360.3d-Printing.The design process. |
+| Design and manufacturing skills for the camera housing | Pen and Paper.<br>Fusion 360.3d-Printing.<br>The design process. |
 
 Feasibility Scale: 70%
 
@@ -100,7 +99,7 @@ Feasibility Scale: 70%
 
 #### Risks
 
-| **Risk** | **Description** | **Impact of**** Risk****(L M H)** | **Mitigation / Reduction** |
+| **Risk** | **Description** | **Impact of Risk(L M H)** | **Mitigation / Reduction** |
 | --- | --- | --- | --- |
 | Loss of data | Project files get lost, deleted, or corrupted. | H | Make consistent commits to the project GitHub repository. Keep a backup of any local changes. Ensure file changes have been saved. |
 | Conflicting assessment | One or more team members must commit their time to other assessment items. | M | Make sure each team member considers this project their main priority, as this project is being presented at a national conference. Ask for special considerations on other tasks. |
@@ -111,7 +110,7 @@ Timeframe estimate: Two weeks (5 days remaining)
 
 | **Deliverable** | **Duration** | **Completion Date** | **Dependencies** |
 | --- | --- | --- | --- |
-| Stereo Camera Housing | 3 Days | End Week 1\* | CAD Model CompletedAssembly is 3D-Printed |
+| Stereo Camera Housing | 3 Days | End Week 1\* | CAD Model Completed.<br>Assembly is 3D-Printed. |
 | Camera Calibration | 1 Day | Mid Week 2\* | Calibration images taken.
  Camera matrix and distortion coefficients computed. |
 | Pixel correspondence algorithm | 1-2 Days | Mid Week 3 | Determine if image rectification is required.Block similarity metric chosen.
