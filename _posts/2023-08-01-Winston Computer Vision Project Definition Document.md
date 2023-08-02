@@ -5,7 +5,7 @@ tags:
 toc: true
 ---
 
-This blog post is the project definition document for Winston's computer vision systems. A project definition document is a school assessment item that defines the project I am doing for robotics this semester. Note that the template for this document was designed to be completed by a team, however our team divided work into sub-systems, so each of us are filling in separate documents. If you are interested, there is another [project definition document for Winston's navigation systems.]({{site.url}}/2023/08/01/Data-Science-Project-Definition-Document.html)
+This blog post is the project definition document for Winston's computer vision systems. This project definition document is a school assessment item that defines the project I am doing for robotics this semester. Note that the template for this document was designed to be completed by a team, however our team divided work into sub-systems, so each of us are filling in separate documents. If you are interested, there is another [project definition document for Winston's navigation systems.]({{site.url}}/2023/08/01/Winston-Navigation-Project-Definition-Document.html)
 
 #### Project Definition Information
 
@@ -107,7 +107,7 @@ Feasibility Scale: 70%
 
 #### Deliverables, Timeframes and Dependencies
 
-Timeframe estimate: Two weeks (5 days remaining)
+Timeframe estimate: Three weeks for PyConAU (5 days remaining), 5 weeks for entire project.
 
 | **Deliverable** | **Duration** | **Completion Date** | **Dependencies** |
 | --- | --- | --- | --- |
@@ -116,5 +116,5 @@ Timeframe estimate: Two weeks (5 days remaining)
 | Pixel correspondence algorithm | 1-2 Days | Mid Week 3 | Determine if image rectification is required.<br>Block similarity metric chosen.<br>Block matching algorithm chosen and implemented. |
 | Depth map created | 1-2 Days | Late Week 3 | Camera matrix used to convert pixels to distance on image sensor.<br>Triangulation algorithm implemented. |
 | Real-time computation | 2 Days | End Week 3 | Implement multi-threading, and/or GPU acceleration. |
-
+| Further Optimisations | 14 Days | End Week 5 | Dependencies will become apparent after initial  |
 \*Deliverable is already complete
