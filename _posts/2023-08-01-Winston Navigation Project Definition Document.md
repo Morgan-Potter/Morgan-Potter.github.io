@@ -30,9 +30,9 @@ The main purpose of the navigation system is to automatically plan individual le
 
 | **Team Member** | **Applicable Capabilities** |
 | --- | --- |
-| Morgan Potter | Knowledge of Python. <br>Experience with dynamic, and non-dynamic path-finding algorithms. |
+| Morgan Potter | Knowledge of Python.<br>Experience with dynamic, and non-dynamic path-finding algorithms. |
 
-#### Project Outcomes/Requirement Objectives**
+#### Project Outcomes/Requirement Objectives
 
 | **Outcome** | **Description** |
 | --- | --- |
@@ -62,7 +62,7 @@ The timeframe for this project is: 3/08/23
 | PyConAU Audience | Broad feedback on the project and presentation to improve it in future. |
 | Userbase | Can provide more thorough testing than me, and can provide suggestions / feedback. |
 
-#### Constraints**
+#### Constraints
 
 | **Constraint** | **Impact on Project Success (High/Med/Low)** |
 | --- | --- |
@@ -110,5 +110,6 @@ Timeframe estimate: Four Days for PyConAU, 3-4 weeks for final presentation.
 | Defining traversable nodes for Winston's whole body | 1 Day | End Week 3 | Computer vision data read.<br>Translated Winston's view into a birds eye perspective.<br>Determined non-traversable nodes based on height. |
 | Pathfinding algorithm | 2 Days | Mid Week 4 | Set of traversable nodes read.<br>Initial path found.<br>Initial path altered as more world information is discovered. |
 | Real-time computation of whole-body pathfinding | 1 Day | Mid Week 4 | Algorithms are optimized.<br>Computation acceleration techniques may be added. |
-| Individual leg control | 3-4 weeks | ?? | Optimal gait considered.Force tolerance of surface considered.<br>Change in balance considered.<br>Force tolerance of motors considered.<br>Adjustment in response to unexpected outcomes considered.<br>Optimal path considered.<br>Optimizations for real-time computation made |
+| Individual leg control | 3-4 weeks | ?? | Optimal gait considered.<br>Force tolerance of surface considered.<br>Change in balance considered.<br>Force tolerance of motors considered.<br>Adjustment in response to unexpected outcomes considered.<br>Optimal path considered.<br>Optimizations for real-time computation made |
+
 \*Deliverable is already complete
