@@ -111,5 +111,3 @@ Timeframe estimate: Four Days for PyConAU, 3-4 weeks for final presentation.
 | Pathfinding algorithm | 2 Days | Mid Week 4 | Set of traversable nodes read.<br>Initial path found.<br>Initial path altered as more world information is discovered. |
 | Real-time computation of whole-body pathfinding | 1 Day | Mid Week 4 | Algorithms are optimized.<br>Computation acceleration techniques may be added. |
 | Individual leg control | 3-4 weeks | ?? | Optimal gait considered.<br>Force tolerance of surface considered.<br>Change in balance considered.<br>Force tolerance of motors considered.<br>Adjustment in response to unexpected outcomes considered.<br>Optimal path considered.<br>Optimizations for real-time computation made |
-
-\*Deliverable is already complete

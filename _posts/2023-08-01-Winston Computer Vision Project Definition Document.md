@@ -12,6 +12,7 @@ This blog post is the project definition document for Winston's computer vision 
 | Project Name: | Winston Computer Vision Systems |
 | --- | --- |
 | Project Team: | Morgan Potter |
+| Full Project Team: | Morgan Potter (computer vision and navigation), Samuel Sidebotham (Physical design and inverse kinematics), Joshua Kisnorbo (Website and object detection) |
 | Mentoring Teacher: | Mr. Edwin Griffin |
 | Proposed Project Start Date: | 17/07/2023 |
 
