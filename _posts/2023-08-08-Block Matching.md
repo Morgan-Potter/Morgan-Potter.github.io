@@ -96,4 +96,3 @@ This algorithm could also be made faster by using more computing power. Currentl
 ##### How are you going with the current workload?
 
 I had a lot of catch up to do last week in terms of completing my IT reflections - whereas this week I had the opportunity to be on time again. I did not really have time though, because it was my 18th on Saturday, and I competed in Pecan+CTF2023, which ran over Saturday and Sunday. This left me in a bit of a slump of unproductiveness, which took a bit to get over. So I do not think this week was very indicative of my tolerance to the current workload, however it is good that I was able to have a break and then get back on the horse - which I have failed to do in the past.
-
