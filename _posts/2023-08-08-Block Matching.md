@@ -1,8 +1,10 @@
 ---
 tags:
     - "Data Science"
+    - "Winston"
 header:
     overlay_image: '/assets/Block-Matching/disparity-map.png'
+excerpt: Block matching so Winston can see
 ---
 
 #### What I have been doing
