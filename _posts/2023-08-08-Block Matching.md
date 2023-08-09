@@ -35,13 +35,14 @@ Once the difference between a pixel in image A, and every pixel of image B have 
 
 In this stereo vision implementation, the cameras are only displaced horizontally - meaning that the pixels only differ along each row. This means that there is no need to look for pixel matches with a vertical displacement, as they do not exist. My implementation is therefore based on the below pseudocode.
 
-```
-for every row in image A:
+<pre><code class="language-plaintext hljs" style="white-space: pre-wrap;">for every row in image A:
     for every pixel in imageA[row]:
         for every pixel in imageB[row]:
             difference = SSD of block1, block2
         add (row, pixelA, pixelB, lowestDifference) to matches
-```
+</code></pre>
+
+
 My method for finding the lowest difference value is to create a variable called lowest, and modify it if the new difference is lower than the current lowest difference. I also decided to allow a variable block size, meaning additional loops are needed to iterate through every pixel in the block. Additionally, I added a mapping function to convert the disparity values (-480-480), to pixel brightness values (0-255). My code is below:
 
 <pre><code class="language-python hljs" style="white-space: pre-wrap;">def match_images(img1, img2, block_size: int) -> list:
@@ -64,7 +65,7 @@ My method for finding the lowest difference value is to create a variable called
                 if lowest_tot > total:
                     lowest = x
                     lowest_tot = total + 1
-            row.append(self._map((i-lowest), -len(img1[0]), len(img1[0]), 0, 255))
+            row.append(_map((i-lowest), -len(img1[0]), len(img1[0]), 0, 255))
         print('row', row, 'complete')
         out.append(row)
     return row
