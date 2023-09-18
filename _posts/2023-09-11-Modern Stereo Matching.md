@@ -12,13 +12,13 @@ Over the past 6ish months I have been building up fundamental knowledge that is 
 
 ##### "Breakthroughs" in stereo matching
 
-The stereo matching research community lay relatively dormant until fairly recently, as LiDAR is already a tested solution for accurately mapping 3d environments. The paper that really started to push the progression of stereo matching techniques outlined a "multichannel convolutional neural network" (MC-CNN) as a matching cost function, which showed significant improvement over more conventional cost functions. The neural network is trained on large datasets containing the stereo images and the ground truth (i.e. the actual disparity map) found with LiDAR. An example data point can be seen below.
+The stereo matching research community lay relatively dormant until fairly recently, as LiDAR is already a tested solution for accurately mapping 3d environments. The paper that really started to push the progression of stereo matching techniques outlined a ["multichannel convolutional neural network" (MC-CNN)](https://github.com/jzbontar/mc-cnn) as a matching cost function, which showed significant improvement over more conventional cost functions. The neural network is trained on large datasets containing the stereo images and the ground truth (i.e. the actual disparity map) found with LiDAR. An example data point can be seen below.
 
 | Left Image | Right Image |
 | --- | --- |
 | ![Left Image]({{site.url}}/assets/Modern-Stereo-Matching/imgleft.jpg) | ![Right Image]({{site.url}}/assets/Modern-Stereo-Matching/imgright.jpg) |
 
-| Result |
+| Ground Truth (disparity) |
 | --- |
 | ![Disparity]({{site.url}}/assets/Modern-Stereo-Matching/leftdisp.jpg) |
 
