@@ -118,4 +118,5 @@ Timeframe estimate: Three weeks for PyConAU (5 days remaining), 5 weeks for enti
 | Depth map created | 1-2 Days | Late Week 3 | Camera matrix used to convert pixels to distance on image sensor.<br>Triangulation algorithm implemented. |
 | Real-time computation | 2 Days | End Week 3 | Implement multi-threading, and/or GPU acceleration. |
 | Further Optimisations | 14 Days | End Week 5 | Dependencies will become apparent after initial  |
+
 \*Deliverable is already complete

@@ -51,7 +51,8 @@ My method for finding the lowest difference value is to create a variable called
     """ ## Returns a disparity map image """
     # Ranges computed now instead of every iteration
     block_max = int(block_size/2)
-    img1x = range(block_max, len(img1[0]) - block_max) # range shortened so block does not include undefined points
+    img1x = range(block_max, len(img1[0]) - block_max) # range shortened so block does not include undefined 
+    img1y = range(block_max, len(img1) - block_max)
     img2x = range(block_max, len(img2[0]) - block_max)
     block = range(-block_max, block_max + 1)# e.g block_size = 5, matrix will be [-2, -1, 0, 1, 2] ** 2
     out = []
