@@ -12,7 +12,7 @@ header:
 
 [Sam Sidebotham,](https://samsidebotham.com/) [Josh Kisnorbo](https://joush007.github.io/) and [I]({{site.url}}) presented during the student showcase at [PyConAU](https://2023.pycon.org.au/) in August. We also did the same presentation for [Young ICT Explorers](https://www.youngictexplorers.net.au/) (YICTE) last week. The actual creation of the presentation was quite chaotic, so I will provide an outline in this post. The video is embedded below.
 
-{% include video id="Z60fVOQJzpc?start=3884" provider="youtube" %}
+{% include video id="Z60fVOQJzpc?start=4004" provider="youtube" %}
 
 ##### How did we make the presentation
 
