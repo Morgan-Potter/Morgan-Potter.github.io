@@ -40,7 +40,3 @@ In Japan, robots are being used as care givers and companions for the aged as th
 The literal purpose of a robot, as derived from the Czech word ‘robota’, is ‘forced labour’, and if a robot was a moral agent, ethically we would no longer be allowed to force robots to do something. Allowing a robot to be a moral agent brings into question whether it is a ‘robot’ anymore. Robots with moral agency are instead a new form of intelligent life that will not fulfill the purpose of ‘forced labour’ but have uses in their own right. 
 
 The bigger consequence of robots receiving moral agency is there being another ‘being’ in our society that deserves and/or requires the provision of rights. It is hard to imagine what this provision could actually mean. Would it be similar to the changes in society that have happened through the abolition of slavery or apartheid, or could it mean total world recreation, as depicted in dystopian novels and movies. Whatever the consequence, is this something that we really want to enable? 
-
-
-
-

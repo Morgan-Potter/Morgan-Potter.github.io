@@ -10,7 +10,7 @@ I have recently been informed that if I receive exemptions from my IT reflection
 
 ##### What issues have you been having with your projects?
 
-My most pressing issue currently is re-determining what my projects actually are, and how they are divided. I have put a considerable amount of work into my projects already. Currently, I have a stereo camera system (based on [IGEV](https://github.com/gangweiX/IGEV)) that is generating fairly accurate disparity maps. I am yet to properly calibrate, and convert the disparity map into a 3D point cloud, but the math to do so is fairly trivial. The issue is, I have not yet done the 3D pathfinding that was going to be my data science project. Given the small amount of time I have remaining (~ 5 days), I think it is important to weigh up my options.
+My most pressing issue currently is re-determining what my projects actually are, and how they are divided. I have put a considerable amount of work into my projects already. Currently, I have a stereo camera system (based on [IGEV](https://github.com/gangweiX/IGEV)) that is generating fairly accurate disparity maps. I am yet to properly calibrate, and convert the disparity map into a 3D point cloud, but the math to do so is fairly trivial. The issue is, I have not yet done the 3D pathfinding that was going to be my data science project. Given the small amount of time I have remaining (~ 5 days), I think it is important to weigh up my options for completing my data science project. 
 
 ##### Option 1: Try to finish the project as planned
 
