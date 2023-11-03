@@ -7,7 +7,7 @@ excerpt: This blog is actually a school assignment - so how do I get a good grad
 
 #### What I have been doing
 
-I am writing this post to re-evaluate how I write reflection journals ([again]({{site.url}}/2022/07/26/Journal-Entry-Format.html)), because I am becoming anxious that my journals are not hitting the assesment criteria. This would be quite bad for me personally, because I have put in a significant effort to write good reflection journals and yet I might still get a bad mark. Before I get into the details of why, I should discuss the recent trend of these reflection journals / blog posts, and why I am having doubts.
+I am writing this post to re-evaluate how I write reflection journals ([again]({{site.url}}/2022/07/26/Journal-Entry-Format.html)), because I am becoming anxious that my journals are not hitting the assessment criteria. This would be quite bad for me personally, because I have put in a significant effort to write good reflection journals, and yet I might still get a bad mark. Before I get into the details of why, I should discuss the recent trend of these reflection journals / blog posts, and why I am having doubts.
 
 ##### The current state of my reflection journals
 
@@ -23,7 +23,7 @@ Personally, I believe these changes were entirely beneficial to this reflection 
 
 I am yet to confirm any of this with my teacher, but based on my previous feedback and reading the rubric more carefully, I can determine a rough outline for how these reflections are meant to look. The academic criteria for these reflection journals (i.e. the rubric) is based on reflecting on the weeks work. This involves the following:
 
-* State the work you completed, and explain the relevant theory so anyone can understand what you are talking about. Do not get into specifics.
+* State the work you completed, and explain the relevant theory, so anyone can understand what you are talking about. Do not get into specifics.
 * Discuss any issues you came across, and how you solved them / how you could have solved them. If you ran into no issues, you can discuss why you had no issues. (majority of words)
 * Discuss the ethics of the concepts you are exploring when it is relevant.
 * Reflect on your learning. Consider how 'good' it was. This can include discussing your time management, efficiency and satisfaction of learning.
@@ -38,7 +38,7 @@ Considering that I only have 3 assessable journal entries left for each subject,
 
 These reflections must be on a topic related to my IT classwork. This may become particularly hard when thinking of an ethical discussion topic, as there is often no pressing discussion to be had. The reflections should also be at a high quality to ensure the marks are compensated for.
 
-The ethics reflections would preferably be relevant, and highly controversial topics so they are engaging to read, and interesting to write. Some examples are generative AI, robotic weapons and human machine augmentation. These reflections should be highly informed with a strong backing in research. I will need to understand the discussion, and critically analyse the ethical backing of any given discussion point.
+The ethics reflections would preferably be relevant and highly controversial topics, so they are engaging to read and interesting to write. Some examples are generative AI, robotic weapons and human machine augmentation. These reflections should be highly informed with a strong backing in research. I will need to understand the discussion, and critically analyse the ethical backing of any given discussion point.
 
 The problem-solving reflections should follow a quality problem-solving process. First I must define the problem, and discuss its impact to show I can recognise problems as they arise. Then, I need to define potential solution/s, which should be critically analysed to a final conclusion. This shows that I can determine a highly informed solution to a problem through ideation and analysis. These should be easier to write than the ethics reflections due to having no research requirement; in fact this reflection is one of my problem-solving reflections.
 
