@@ -1,4 +1,5 @@
 ---
+title: Reflection Journals - Addressing the Rubric
 tags:
     - "Robotics / Mechatronics"
 excerpt: This blog is actually a school assignment - so how do I get a good grade?
